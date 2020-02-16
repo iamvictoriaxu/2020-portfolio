@@ -25,9 +25,3 @@ h2 {
     margin: auto;
     padding-top: 200px;
 }
-body {
-    background-image: url("Home/Stars and moon.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-  }
