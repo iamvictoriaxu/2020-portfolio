@@ -1,7 +1,7 @@
 body {
     background-color: #0A253A
 }
-title {
+h1 {
     color: rgb(255, 255, 255);
     font-family: Oranienbaum;
     font-size: 110px;
@@ -9,7 +9,6 @@ title {
     letter-spacing: 7.33px;
     width: 628px;
     text-align: center;
-
 }
 p {
     color: rgb(255, 255, 255);
