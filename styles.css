@@ -31,3 +31,12 @@ body {
     background-position: top;
     background-attachment: fixed;
   }
+button {
+    color: #ffffff;
+    font-family: UnicaOne-Regular;
+    font-size: 28px;
+    font-weight: normal;
+    height: 33px;
+    letter-spacing: 2px;
+    width: 47px;
+}
