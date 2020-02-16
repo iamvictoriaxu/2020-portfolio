@@ -25,3 +25,9 @@ h2 {
     margin: auto;
     padding-top: 200px;
 }
+body {
+    background-image: src="/Users/victoriaxu/Desktop/GitHub/victoriaxu.github.io/2020 portfolio images/Home/Stars and moon.png";
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+  }
