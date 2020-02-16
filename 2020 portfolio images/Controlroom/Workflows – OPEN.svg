@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="1057" viewBox="0 0 1366 1057">
+  <defs>
+    <filter id="Rectangle_173" x="1156.5" y="141.747" width="147.889" height="38.753" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Workflows_OPEN">
+      <rect width="1366" height="1057"/>
+    </clipPath>
+  </defs>
+  <g id="Workflows_OPEN" data-name="Workflows – OPEN" clip-path="url(#clip-Workflows_OPEN)">
+    <rect width="1366" height="1057" fill="#e1e8eb"/>
+    <g id="nagivate_bar" data-name="nagivate bar" transform="translate(-8.623 -5.373)">
+      <rect id="Rectangle_118" data-name="Rectangle 118" width="1382.557" height="184.438" transform="translate(0 5.499)" fill="#54aff6"/>
+      <g id="Group_4" data-name="Group 4" transform="translate(14.769 0)" opacity="0.776">
+        <path id="Path_37" data-name="Path 37" d="M0,0V201.237" fill="#54aff6"/>
+        <line id="Line_44" data-name="Line 44" x2="14.409" transform="translate(0 16.699)" fill="none"/>
+        <line id="Line_45" data-name="Line 45" x2="14.409" transform="translate(0 74.309)" fill="none"/>
+        <line id="Line_46" data-name="Line 46" x2="14.409" transform="translate(0 114.661)" fill="none"/>
+        <line id="Line_47" data-name="Line 47" x2="14.409" transform="translate(0 157.942)" fill="none"/>
+        <line id="Line_48" data-name="Line 48" y1="0.14" x2="14.409" transform="translate(0 200.837)" fill="none"/>
+      </g>
+      <path id="Union_6" data-name="Union 6" d="M-8212.377-2537.929v-56.7a30,30,0,0,1,30-30h1223.133a30,30,0,0,1,30,30v56.7Z" transform="translate(8262.088 2727.864)" fill="#fff"/>
+    </g>
+    <circle id="Ellipse_89" data-name="Ellipse 89" cx="23.055" cy="23.055" r="23.055" transform="translate(1264.426 28.707)" fill="#fff"/>
+    <text id="A" transform="translate(1280.273 56.234)" fill="rgba(10,191,191,0.79)" font-size="17" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">A</tspan></text>
+    <text id="AQE_Monitoring" data-name="AQE Monitoring" transform="translate(77.155 144.528)" fill="rgba(53,62,62,0.92)" font-size="16" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">AQE Monitoring</tspan></text>
+    <text id="SUITE" transform="translate(554.774 47.912)" fill="#fff" font-size="13" font-family="Montserrat-Regular, Montserrat" opacity="0.586"><tspan x="0" y="0">SUITE</tspan></text>
+    <text id="GAMIFICATION" transform="translate(854.801 48.633)" fill="#fff" font-size="13" font-family="Montserrat-Regular, Montserrat" opacity="0.586"><tspan x="-49.354" y="0">GAMIFICATION</tspan></text>
+    <text id="APPLICATION_MONITORING" data-name="APPLICATION
+MONITORING" transform="translate(699.461 47.912)" fill="#fff" font-size="13" font-family="Montserrat-Regular, Montserrat" opacity="0.59"><tspan x="-45.077" y="0">APPLICATION</tspan><tspan x="-45" y="16">MONITORING</tspan></text>
+    <text id="AQE_MONITORING-2" data-name="AQE 
+MONITORING" transform="translate(1013.199 47.912)" fill="#fff" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-16.601" y="0">AQE </tspan><tspan x="-45.688" y="16">MONITORING</tspan></text>
+    <text id="CONFIGURATIONS" transform="translate(1160.762 47.912)" fill="#fff" font-size="13" font-family="Montserrat-Regular, Montserrat" opacity="0.586"><tspan x="-61.126" y="0">CONFIGURATIONS</tspan></text>
+    <g id="Group_118" data-name="Group 118" transform="translate(-121 -51.755)">
+      <text id="Status" transform="translate(1282 186)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Status</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 121, 51.75)" filter="url(#Rectangle_173)">
+        <g id="Rectangle_173-2" data-name="Rectangle 173" transform="translate(1161 143.25)" fill="#fff" stroke="rgba(112,112,112,0.32)" stroke-width="0.2">
+          <rect width="138.889" height="29.753" rx="6" stroke="none"/>
+          <rect x="0.1" y="0.1" width="138.689" height="29.553" rx="5.9" fill="none"/>
+        </g>
+      </g>
+      <text id="All" transform="translate(1301.876 214.003)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="-7.53" y="0">All</tspan></text>
+      <path id="Path_87" data-name="Path 87" d="M4482,5407.608h8.8l-4.44,4.785Z" transform="translate(-3081.613 -5199.58)" fill="#65b5f4" stroke="#65b5f4" stroke-width="1"/>
+    </g>
+    <rect id="Rectangle_202" data-name="Rectangle 202" width="871.639" height="542.725" transform="translate(40 192)" fill="#fff"/>
+    <text id="WORKFLOW_NAME" data-name="WORKFLOW NAME" transform="translate(111 282)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">WORKFLOW NAME</tspan></text>
+    <text id="WORKFLOW_ID" data-name="WORKFLOW ID" transform="translate(389.246 283)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">WORKFLOW ID</tspan></text>
+    <text id="STATUS-2" data-name="STATUS" transform="translate(734.68 283)" fill="#565656" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">STATUS</tspan></text>
+    <line id="Line_87" data-name="Line 87" x2="770.971" transform="translate(89.211 294.5)" fill="none" stroke="#8d8c8c" stroke-width="1"/>
+    <text id="Test_-_Service_Request" data-name="Test - Service Request" transform="translate(111 323.858)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Test - Service Request</tspan></text>
+    <text id="_5cdb7ef7f4bae60001c6cad3" data-name="5cdb7ef7f4bae60001c6cad3" transform="translate(391.669 324.319)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cdb7ef7f4bae60001c6cad3</tspan></text>
+    <line id="Line_87-2" data-name="Line 87" x2="770.971" transform="translate(89.211 343.939)" fill="none" stroke="#8d8c8c" stroke-width="1"/>
+    <text id="Create_incident" data-name="Create incident" transform="translate(111 372.221)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Create incident</tspan></text>
+    <text id="_5cdb5fb5f4bae60001c6cac8" data-name="5cdb5fb5f4bae60001c6cac8" transform="translate(389.669 372.015)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cdb5fb5f4bae60001c6cac8</tspan></text>
+    <text id="Approval_UC" data-name="Approval UC" transform="translate(111 468.331)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Approval UC</tspan></text>
+    <text id="_5cdb59b2f4bae60001c6ca87" data-name="5cdb59b2f4bae60001c6ca87" transform="translate(387.921 468.056)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cdb59b2f4bae60001c6ca87</tspan></text>
+    <line id="Line_87-3" data-name="Line 87" x2="770.971" transform="translate(93.35 488.895)" fill="none" stroke="#8d8c8c" stroke-width="1" opacity="0.836"/>
+    <text id="PACR-2.2" transform="translate(110 516.131)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">PACR-2.2</tspan></text>
+    <text id="_5cdb5936f4bae60001c6ca80" data-name="5cdb5936f4bae60001c6ca80" transform="translate(388.233 519.325)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cdb5936f4bae60001c6ca80</tspan></text>
+    <path id="Path_161" data-name="Path 161" d="M0,0H770.971" transform="translate(93.35 535.447)" fill="none" stroke="#8d8c8c" stroke-width="1" opacity="0.836"/>
+    <text id="PACR_Workflow" data-name="PACR Workflow" transform="translate(112 564.354)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">PACR Workflow</tspan></text>
+    <text id="_5cdb4accf4bae60001c6ca20" data-name="5cdb4accf4bae60001c6ca20" transform="translate(388.546 565.594)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cdb4accf4bae60001c6ca20</tspan></text>
+    <line id="Line_87-4" data-name="Line 87" x2="770.971" transform="translate(93.35 584.052)" fill="none" stroke="#8d8c8c" stroke-width="1" opacity="0.836"/>
+    <text id="PACR-1.2" transform="translate(110 613.451)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">PACR-1.2</tspan></text>
+    <text id="_5cc6e7ab1074e70001bbf15c" data-name="5cc6e7ab1074e70001bbf15c" transform="translate(389.222 613.863)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cc6e7ab1074e70001bbf15c</tspan></text>
+    <line id="Line_87-5" data-name="Line 87" x2="770.971" transform="translate(93.35 632.646)" fill="none" stroke="#8d8c8c" stroke-width="1" opacity="0.836"/>
+    <text id="PACR-1.1" transform="translate(112 660.736)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">PACR-1.1</tspan></text>
+    <text id="_5cdb7ef7f4bae60001c6cad3-2" data-name="5cdb7ef7f4bae60001c6cad3" transform="translate(388.293 661.141)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cdb7ef7f4bae60001c6cad3</tspan></text>
+    <text id="_1_2_3_4_5" data-name="1   2   3   4   5" transform="translate(731.639 710.725)" fill="#454d4d" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0" xml:space="preserve">1   2   3   4   5</tspan></text>
+    <path id="Polygon_11" data-name="Polygon 11" d="M5,0l5,8H0Z" transform="translate(658.139 712.225) rotate(-90)" fill="#707070"/>
+    <text id="prev" transform="translate(676.639 710.725)" fill="#454d4d" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">prev</tspan></text>
+    <text id="next" transform="translate(836.639 710.725)" fill="#454d4d" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">next</tspan></text>
+    <path id="Polygon_12" data-name="Polygon 12" d="M5,0l5,8H0Z" transform="translate(885.139 702.225) rotate(90)" fill="#707070"/>
+    <g id="Group_122" data-name="Group 122" transform="translate(-3 -2.406)">
+      <image id="magnifying-glass_1_" data-name="magnifying-glass (1)" width="15" height="15" transform="translate(482.932 217.919)" opacity="0.511" xlink:href="data:image/png;base64,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"/>
+      <text id="Search_for_Workflow_Name_or_ID" data-name="Search for Workflow Name or ID" transform="translate(230.538 230.476)" fill="#565656" font-size="13" font-family="Montserrat-Regular, Montserrat" opacity="0.439"><tspan x="0" y="0">Search for Workflow Name or ID</tspan></text>
+      <g id="Rectangle_163" data-name="Rectangle 163" transform="translate(216.538 211.919)" fill="none" stroke="#707070" stroke-width="1" opacity="0.335">
+        <rect width="289.331" height="27.487" rx="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="288.331" height="26.487" rx="5.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_211" data-name="Rectangle 211" width="803.046" height="47" rx="11" transform="translate(68 393.287)" fill="#d5f1fd"/>
+    <text id="CS_Email_Triage" data-name="CS Email Triage" transform="translate(111 420.205)" fill="#54aff6" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">CS Email Triage</tspan></text>
+    <text id="_5cb5113e203d1500013e7cce" data-name="5cb5113e203d1500013e7cce" transform="translate(388.179 420.613)" fill="#454d4d" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">5cb5113e203d1500013e7cce</tspan></text>
+    <g id="Group_123" data-name="Group 123" transform="translate(140 -4)">
+      <rect id="Rectangle_157" data-name="Rectangle 157" width="92.958" height="32.891" rx="5" transform="translate(594 308.47)" fill="#3ecc54"/>
+      <text id="Active" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    </g>
+    <g id="Group_124" data-name="Group 124" transform="translate(140 44)">
+      <rect id="Rectangle_157-2" data-name="Rectangle 157" width="92.958" height="32.891" rx="5" transform="translate(594 308.47)" fill="#3ecc54"/>
+      <text id="Active-2" data-name="Active" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    </g>
+    <g id="Group_125" data-name="Group 125" transform="translate(140 92)">
+      <path id="Path_162" data-name="Path 162" d="M5,0H87.958a5,5,0,0,1,5,5V27.891a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(594 308.47)" fill="#e3400f"/>
+      <text id="Deleted" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Deleted</tspan></text>
+    </g>
+    <g id="Group_126" data-name="Group 126" transform="translate(140 140)">
+      <rect id="Rectangle_157-3" data-name="Rectangle 157" width="92.958" height="32.891" rx="5" transform="translate(594 308.47)" fill="#3ecc54"/>
+      <text id="Active-3" data-name="Active" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    </g>
+    <g id="Group_127" data-name="Group 127" transform="translate(140 188)">
+      <rect id="Rectangle_157-4" data-name="Rectangle 157" width="92.958" height="32.891" rx="5" transform="translate(594 308.47)" fill="#3ecc54"/>
+      <text id="Active-4" data-name="Active" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    </g>
+    <g id="Group_129" data-name="Group 129" transform="translate(140 284)">
+      <rect id="Rectangle_157-5" data-name="Rectangle 157" width="92.958" height="32.891" rx="5" transform="translate(594 308.47)" fill="#3ecc54"/>
+      <text id="Active-5" data-name="Active" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    </g>
+    <g id="Group_130" data-name="Group 130" transform="translate(140 332)">
+      <rect id="Rectangle_157-6" data-name="Rectangle 157" width="92.958" height="32.891" rx="5" transform="translate(594 308.47)" fill="#3ecc54"/>
+      <text id="Active-6" data-name="Active" transform="translate(618.002 328.476)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    </g>
+    <text id="List_of_Workflows" data-name="List of Workflows" transform="translate(68 229)" fill="#565656" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">List of Workflows</tspan></text>
+    <path id="Path_163" data-name="Path 163" d="M5,0H87.958a5,5,0,0,1,5,5V27.891a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(734 543.471)" fill="#e3400f"/>
+    <text id="Deleted-2" data-name="Deleted" transform="translate(756.002 565.477)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Deleted</tspan></text>
+    <rect id="Rectangle_221" data-name="Rectangle 221" width="401.581" height="311.531" transform="translate(920.418 423.205)" fill="#fff"/>
+    <path id="Rectangle_226" data-name="Rectangle 226" d="M0,0H1282.955a0,0,0,0,1,0,0V250.775a30,30,0,0,1-30,30H30a30,30,0,0,1-30-30V0A0,0,0,0,1,0,0Z" transform="translate(39 741.559)" fill="#fff"/>
+    <text id="Workflow_Parameters_" data-name="Workflow Parameters " transform="translate(944.639 463.338)" fill="#565656" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Workflow Parameters </tspan></text>
+    <text id="LIST_OF_JOBS_ASSOCIATED_WITH_SPECIFIC_WORFLOW_" data-name="LIST OF JOBS ASSOCIATED WITH SPECIFIC WORFLOW " transform="translate(63.501 768.133)" fill="#fff" font-size="10" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">LIST OF JOBS ASSOCIATED WITH SPECIFIC WORFLOW </tspan></text>
+    <text id="INPUT_PARAMETERS" data-name="INPUT PARAMETERS" transform="translate(982.582 495.24)" fill="#54aff6" font-size="12" font-family="Montserrat-Regular, Montserrat" opacity="0.995"><tspan x="0" y="0">INPUT PARAMETERS</tspan></text>
+    <text id="ID" transform="translate(988.021 523.906)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">ID</tspan></text>
+    <text id="Name" transform="translate(988.021 571.424)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Name</tspan></text>
+    <text id="Manadatory" transform="translate(987.021 670.459)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Manadatory</tspan></text>
+    <text id="Type" transform="translate(988.021 623.94)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Type</tspan></text>
+    <text id="Yes" transform="translate(988 689.291)" fill="#2c3033" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Yes</tspan></text>
+    <text id="MAIN_JOB_ID" data-name="MAIN JOB ID" transform="translate(369.494 805.442)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">MAIN JOB ID</tspan></text>
+    <text id="MAIN_JOB_NAME" data-name="MAIN JOB NAME" transform="translate(87.634 804.163)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">MAIN JOB NAME</tspan></text>
+    <text id="JOB_STATUS" data-name="JOB STATUS" transform="translate(1019.232 802.722)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">JOB STATUS</tspan></text>
+    <line id="Line_95" data-name="Line 95" x2="1204.968" transform="translate(73.95 817.583)" fill="none" stroke="#565656" stroke-width="1" opacity="0.42"/>
+    <rect id="Rectangle_225" data-name="Rectangle 225" width="92.958" height="29.545" rx="5" transform="translate(1021.691 823.708)" fill="#3ecc54"/>
+    <text id="Active-7" data-name="Active" transform="translate(1048.848 841.914)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    <text id="main_s_2_08306d305f4e11e9aae9ab9e5349fc62" transform="translate(371 839.914)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">main_s_2_08306d305f4e11e9aae9ab9e5349fc62</tspan></text>
+    <text id="Step_name" data-name="Step name" transform="translate(87.874 839.193)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Step name</tspan></text>
+    <text id="main_s_1_87c647f05f4d11e9823f1b2eb7ada767" transform="translate(371 885.15)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">main_s_1_87c647f05f4d11e9823f1b2eb7ada767</tspan></text>
+    <text id="Step_name-2" data-name="Step name" transform="translate(87.874 881.43)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Step name</tspan></text>
+    <text id="List_of_Job_templates_related_to_Workflow" data-name="List of Job templates related to Workflow" transform="translate(63.501 773.854)" fill="#565656" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">List of Job templates related to Workflow</tspan></text>
+    <rect id="Rectangle_229" data-name="Rectangle 229" width="92.958" height="29.545" rx="4" transform="translate(1021.691 869.454)" fill="#3cc551"/>
+    <text id="Active-8" data-name="Active" transform="translate(1046.746 888.216)" fill="#fcfcfc" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    <text id="ticketNumber" transform="translate(990 542.594)" fill="#2c3033" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">ticketNumber</tspan></text>
+    <g id="Group_31" data-name="Group 31" transform="translate(1291.773 438.767)">
+      <g id="Ellipse_86" data-name="Ellipse 86" fill="none" stroke="#575656" stroke-width="2">
+        <circle cx="10.449" cy="10.449" r="10.449" stroke="none"/>
+        <circle cx="10.449" cy="10.449" r="9.449" fill="none"/>
+      </g>
+      <text id="_" data-name="?" transform="translate(5.765 13.882)" fill="#575656" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <g id="Group_31-2" data-name="Group 31" transform="translate(1290.809 754.562)">
+      <g id="Ellipse_86-2" data-name="Ellipse 86" fill="none" stroke="#575656" stroke-width="2">
+        <circle cx="10.449" cy="10.449" r="10.449" stroke="none"/>
+        <circle cx="10.449" cy="10.449" r="9.449" fill="none"/>
+      </g>
+      <text id="_2" data-name="?" transform="translate(5.765 13.882)" fill="#575656" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <path id="Path_140" data-name="Path 140" d="M10203.6,6349.117l6.314,6.314,6.313-6.314" transform="translate(-8970.288 -5470.72)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <path id="Path_141" data-name="Path 141" d="M0,0,6.314,6.314,12.628,0" transform="translate(1234.309 834.601)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <g id="Group_107" data-name="Group 107" transform="matrix(1, 0.017, -0.017, 1, 953.401, 481.335)">
+      <path id="Path_148" data-name="Path 148" d="M9.928,0H4.134A4.138,4.138,0,0,0,0,4.134V5.653H1.181V4.134A2.956,2.956,0,0,1,4.134,1.181H9.928a2.956,2.956,0,0,1,2.953,2.953v7.234A2.956,2.956,0,0,1,9.928,14.32H4.134a2.956,2.956,0,0,1-2.953-2.953V9.94H0v1.427A4.138,4.138,0,0,0,4.134,15.5H9.928a4.138,4.138,0,0,0,4.133-4.134V4.134A4.138,4.138,0,0,0,9.928,0Z" transform="translate(3.498 0)" fill="#54aff6"/>
+      <path id="Path_149" data-name="Path 149" d="M9.277,5.69a.738.738,0,1,0,1.153.922l2.164-2.706a.268.268,0,0,0,.016-.024c.013-.017.025-.036.037-.054s.017-.026.024-.039.01-.021.015-.032.016-.038.023-.058.011-.028.016-.042.006-.025.009-.037.008-.038.011-.058.006-.029.007-.045,0-.028,0-.043,0-.019,0-.028,0-.019,0-.028,0-.029,0-.043,0-.03-.007-.045-.006-.039-.011-.058-.005-.024-.009-.037-.011-.028-.016-.042-.015-.039-.023-.058-.009-.021-.015-.032-.016-.026-.024-.039-.023-.037-.037-.055-.009-.017-.016-.024L10.431.277A.738.738,0,0,0,9.277,1.2l1.205,1.507H.738a.738.738,0,0,0,0,1.476h9.744Z" transform="translate(0 4.306)" fill="#54aff6"/>
+    </g>
+    <g id="Group_31-3" data-name="Group 31" transform="translate(864.689 204.064)">
+      <g id="Ellipse_86-3" data-name="Ellipse 86" fill="none" stroke="#575656" stroke-width="2">
+        <circle cx="10.449" cy="10.449" r="10.449" stroke="none"/>
+        <circle cx="10.449" cy="10.449" r="9.449" fill="none"/>
+      </g>
+      <text id="_3" data-name="?" transform="translate(5.765 13.882)" fill="#575656" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <text id="String" transform="translate(988 642.059)" fill="#2c3033" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">String</tspan></text>
+    <text id="Ticket_Number" data-name="Ticket Number" transform="translate(988 589.826)" fill="#2c3033" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Ticket Number</tspan></text>
+    <rect id="Rectangle_234" data-name="Rectangle 234" width="402.581" height="222.287" transform="translate(921.418 193)" fill="#fff"/>
+    <text id="Workflow_Description_" data-name="Workflow Description " transform="translate(949.639 230.133)" fill="#565656" font-size="13" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Workflow Description </tspan></text>
+    <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_1._aliquip_ex_ea_commodo_consequat._Duis_aute_2._dolor_in_reprehenderit_in_voluptate_velit_esse_" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing
+ elit, sed do eiusmod tempor incididunt ut labore et
+
+1. aliquip ex ea commodo consequat. Duis aute  
+
+2. dolor in reprehenderit in voluptate velit esse 
+
+" transform="translate(954.461 260.48)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Lorem ipsum dolor sit amet, consectetur adipiscing</tspan><tspan x="0" y="15" xml:space="preserve"> elit, sed do eiusmod tempor incididunt ut labore et</tspan><tspan x="0" y="30"></tspan><tspan x="0" y="45" xml:space="preserve">1. aliquip ex ea commodo consequat. Duis aute  </tspan><tspan x="0" y="60"></tspan><tspan x="0" y="75">2. dolor in reprehenderit in voluptate velit esse </tspan><tspan x="0" y="90"></tspan><tspan font-family="Montserrat" font-weight="500"><tspan x="0" y="105"></tspan></tspan></text>
+    <rect id="Rectangle_235" data-name="Rectangle 235" width="92.958" height="29.545" rx="5" transform="translate(1021.691 913.708)" fill="#3ecc54"/>
+    <text id="Active-9" data-name="Active" transform="translate(1048.848 931.914)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    <text id="main_s_2_40ae632056c411e9b4188d7659b7d1f0" transform="translate(371 929.914)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">main_s_2_40ae632056c411e9b4188d7659b7d1f0</tspan></text>
+    <text id="Step_name-3" data-name="Step name" transform="translate(87.874 929.193)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Step name</tspan></text>
+    <path id="Path_168" data-name="Path 168" d="M0,0,6.314,6.314,12.628,0" transform="translate(1234.309 924.601)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <rect id="Rectangle_236" data-name="Rectangle 236" width="92.958" height="29.545" rx="5" transform="translate(1021.691 959.708)" fill="#3ecc54"/>
+    <text id="Active-10" data-name="Active" transform="translate(1048.848 977.914)" fill="#fff" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Active</tspan></text>
+    <text id="main_s_0_856951b05f3811e9b56191c5cb9d3004" transform="translate(371 975.914)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">main_s_0_856951b05f3811e9b56191c5cb9d3004</tspan></text>
+    <text id="Step_name-4" data-name="Step name" transform="translate(87.874 975.193)" fill="#565656" font-size="12" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Step name</tspan></text>
+    <path id="Path_169" data-name="Path 169" d="M0,0,6.314,6.314,12.628,0" transform="translate(1234.309 970.601)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_104" data-name="Line 104" x2="1204.968" transform="translate(73.95 950.583)" fill="none" stroke="#565656" stroke-width="1" opacity="0.42"/>
+    <g id="Group_100" data-name="Group 100" transform="translate(-435 -73)">
+      <rect id="Rectangle_171" data-name="Rectangle 171" width="2" height="65" transform="translate(697.5 255.5) rotate(90)" fill="#54aff6"/>
+      <text id="Executive" transform="translate(512 249)" fill="#454d4d" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Executive</tspan></text>
+      <text id="Job_Templates" data-name="Job Templates" transform="translate(747 249)" fill="#505757" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Job Templates</tspan></text>
+      <text id="Workflows" transform="translate(626 249)" fill="#54aff6" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Workflows</tspan></text>
+      <text id="Plugins" transform="translate(896 249)" fill="#505757" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Plugins</tspan></text>
+      <text id="Business_Metrics" data-name="Business Metrics" transform="translate(994 249)" fill="#505757" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Business Metrics</tspan></text>
+    </g>
+    <line id="Line_122" data-name="Line 122" x2="1204.968" transform="translate(73.95 905.583)" fill="none" stroke="#565656" stroke-width="1" opacity="0.42"/>
+    <line id="Line_124" data-name="Line 124" x2="1204.968" transform="translate(74.95 860.583)" fill="none" stroke="#565656" stroke-width="1" opacity="0.42"/>
+  </g>
+</svg>
