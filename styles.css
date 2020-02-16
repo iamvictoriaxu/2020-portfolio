@@ -41,4 +41,5 @@ body {
     letter-spacing: 2px;
     width: 54px;
     text-decoration: none;
+    cursor: pointer;
 }
