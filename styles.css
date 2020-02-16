@@ -1,6 +1,9 @@
 body {
     background-color: #0A253A
 }
+h1, h2 {
+    text-align: center;
+}
 h1 {
     color: #ffffff;
     font-family: Oranienbaum;
@@ -8,14 +11,12 @@ h1 {
     height: 126px;
     letter-spacing: 7.33px;
     width: 628px;
-    text-align: center;
 }
-p {
+h2 {
     color: #ffffff;
     font-family: PTSans-Narrow;
     font-size: 26px;
     height: 30px;
     letter-spacing: 1.95px;
     width: 384px;
-    text-align: center;
 }
