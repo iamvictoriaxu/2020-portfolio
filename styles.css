@@ -2,7 +2,7 @@ body {
     background-color: #0A253A
 }
 h1 {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: Oranienbaum;
     font-size: 110px;
     height: 126px;
@@ -11,7 +11,7 @@ h1 {
     text-align: center;
 }
 p {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: PTSans-Narrow;
     font-size: 26px;
     height: 30px;
