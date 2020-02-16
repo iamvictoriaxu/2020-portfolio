@@ -9,6 +9,9 @@ h1 {
     height: 126px;
     letter-spacing: 7.33px;
     width: 628px;
+    text-align: center;
+    padding-top: 8px;
+    margin: auto
 }
 h2 {
     color: #ffffff;
