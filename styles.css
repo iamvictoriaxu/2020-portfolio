@@ -25,9 +25,224 @@ body {
         width: 700px;
         text-align: center;
         padding-top: 8px;
-        padding-bottom: 80px;
+        padding-bottom: 85px;
         margin: auto;
     }
+    #mountainContainer {
+        position: relative;
+    }
+    #mountain {
+        width: 100vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mywork {
+        position: absolute;
+        top: 220px;
+        right: 100px;
+    }
+    h1 {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        height: 126px;
+        width: 700px;
+        float: right;
+        text-align: right;
+        padding-top: 8px;
+        margin: auto;
+    }
+    #pastwork , #Accenture , #UNSW , #Woolies, #tobesoon {
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        width: 400px;
+        letter-spacing: 1.95px;
+        text-align: left;
+        margin: auto;
+        padding-top: 20px;
+    }
+    /*
+    .text{
+        h2 {
+            color: #ffffff;
+            font-family:'Oranienbaum', serif;
+            font-weight: normal;
+            font-size: 32px;
+            letter-spacing: 2px;
+            height: 126px;
+            width: 700px;
+            float: left;
+            text-align: left;
+            padding-top: 8px;
+            margin: auto;
+        }
+    } */
+    
+/* all buttons*/
+    #VXU {
+        background-color: transparent;
+        color: #ffffff;
+        font-family: 'Unica One', cursive;
+        font-size: 28px;
+        font-weight: normal;
+        height: 33px;
+        letter-spacing: 2px;
+        width: 54px;
+        float: left;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: left;
+        padding-left: 24px;
+        padding-top: 24px;
+        transition-duration: 0.4s;
+    }
+    #tabButton {
+        background-color: Transparent;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 18px;
+        font-weight: narrow;
+        height: 24px;
+        letter-spacing: 1.33px;
+        width: 70px;
+        float: right;
+        text-decoration: none;
+        text-align: right;
+        padding-top: 36px;
+        padding-right: 64px;
+        transition-duration: 0.4s;
+    }
+    #VXU:hover , #tabButton:hover {
+        background-color: transparent; 
+        color: white;
+        opacity: 50%;
+    }
+    #CRButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: 400px;
+        text-align: left; 
+        position: absolute;
+        top:37%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #MFButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: 400px;
+        text-align: left;
+        position: absolute;
+        top:49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #ChipHoundButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: 400px;
+        text-align: left;
+        position: absolute;
+        top:61%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #MIPButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: 400px;
+        text-align: left;
+        position: absolute;
+        top:90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+/*
+    #CRButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        position: absolute;
+        text-decoration: none;
+        text-align: left;
+        width: 500px;
+        padding-top: 200px;
+        left:55%;
+        transform: translate(-50%, -50%);
+    }
+
+    #MFButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        position: absolute;
+        text-decoration: none;
+        text-align: left;
+        width: 500px;
+        padding-top: 300px;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    #ChipHoundButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        position: absolute;
+        text-decoration: none;
+        text-align: left;
+        width: 500px;
+        padding-top: 400px;
+        left:55%;
+        transform: translate(-50%, -50%);
+    } 
+
+    #MIPButton {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        position: absolute;
+        text-decoration: none;
+        text-align: left;
+        width: 500px;
+        padding-top: 500px;
+        left:55%;
+        transform: translate(-50%, -50%);
+    } */
+    /*
+    #CRButton:hover , #MFButton:hover{
+        text-decoration: underline white; 
+    }
+    #MFButton:hover , #ChipHoundButton:hover, #MIPButton:hover*/
 }
 /*MOBILE*/
 @media screen and (max-width: 600px) {
@@ -56,30 +271,37 @@ body {
         padding-bottom: 80px;
         margin: auto;
     }
-}
-
-body {
-    background-image: url("homeimages/Stars@4x.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: relative;
-
-    max-width: 100%;
-    min-height: 100%;
-    margin: 0;
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
-}
-#mountain {
-    width: 100vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
+    #mountainContainer {
+        position: relative;
+        text-align: center;
+    }
+    #mountain {
+        width: 120vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mywork {
+        position: absolute;
+        top: 120px;
+        right: 30px;
+      }
+    h1 {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 24px;
+        letter-spacing: 2px;
+        height: 126px;
+        width: 700px;
+        float: right;
+        text-align: right;
+        padding-top: 8px;
+        margin: auto;
+    }
+    
 /* all buttons*/
-.button2 {
+    #VXU {
     background-color: transparent;
     color: #ffffff;
     font-family: 'Unica One', cursive;
@@ -95,8 +317,8 @@ body {
     padding-left: 24px;
     padding-top: 24px;
     transition-duration: 0.4s;
-}
-.button {
+    }
+    #tabButton {
     background-color: Transparent;
     color: #ffffff;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -109,14 +331,31 @@ body {
     text-decoration: none;
     text-align: right;
     padding-top: 36px;
-    padding-right: 64px;
+    padding-right: 30px;
     transition-duration: 0.4s;
-}
-.button:hover , .button2:hover {
+    }
+    .button:hover , .button2:hover {
     background-color: transparent; 
     color: white;
     opacity: 50%;
+    }
+    
 }
+
+body {
+    background-image: url("homeimages/Stars@4x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: relative;
+
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+}
+
 /*
 * {
     box-sizing: border-box;
