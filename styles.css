@@ -26,7 +26,7 @@ body {
         text-align: center;
         padding-top: 8px;
         padding-bottom: 80px;
-        margin: auto
+        margin: auto;
     }
 }
 /*MOBILE*/
@@ -54,7 +54,7 @@ body {
         text-align: center;
         padding-top: 4px;
         padding-bottom: 80px;
-        margin: auto
+        margin: auto;
     }
 }
 
@@ -73,12 +73,14 @@ body {
 }
 #mountain {
     width: 150%;
-    align
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* all buttons*/
 .button2 {
-    background-color: Transparent;
+    background-color: transparent;
     color: #ffffff;
     font-family: UnicaOne-Regular;
     font-size: 28px;
