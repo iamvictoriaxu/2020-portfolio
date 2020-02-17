@@ -3,7 +3,19 @@ body {
 }
 /*DESKTOP*/
 @media screen and (min-width: 601px) {
-    h1 {
+    #intro {
+        color: #ffffff;
+        font-family: PTSans-Narrow;
+        font-weight: normal;
+        font-size: 18px;
+        height: 30px;
+        letter-spacing: 1.95px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        padding-top: 258px;
+    }
+    #victoria {
         color: #ffffff;
         font-family: Oranienbaum;
         font-weight: normal;
@@ -16,11 +28,14 @@ body {
         padding-bottom: 80px;
         margin: auto
     }
-    h2 {
+}
+/*MOBILE*/
+@media screen and (max-width: 600px) {
+    #intro {
         color: #ffffff;
         font-family: PTSans-Narrow;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 3vw;
         height: 30px;
         letter-spacing: 1.95px;
         text-align: center;
@@ -28,48 +43,38 @@ body {
         margin: auto;
         padding-top: 258px;
     }
-}
-/*MOBILE*/
-@media screen and (max-width: 600px) {
-    h1 {
+    #victoria {
         color: #ffffff;
         font-family: Oranienbaum;
         font-weight: normal;
-        font-size: 10vw;
+        font-size: 12vw;
         height: 126px;
         letter-spacing: 7.33px;
         width: 500px;
         text-align: center;
-        padding-top: 8px;
+        padding-top: 4px;
+        padding-bottom: 80px;
         margin: auto
-  }
-  h2 {
-    color: #ffffff;
-    font-family: PTSans-Narrow;
-    font-weight: normal;
-    font-size: 3vw;
-    height: 30px;
-    letter-spacing: 1.95px;
-    text-align: center;
-    width: 400px;
-    margin: auto;
-    padding-top: 258px;
+    }
 }
 
-
-
-}
 body {
-    background-image: url("homeimages/Stars.png");
+    background-image: url("homeimages/Stars@4x.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
-    background-attachment: absolute;
-    min-width: 100%;
+    background-attachment: relative;
+
+    max-width: 100%;
     min-height: 100%;
     margin: 0;
     -webkit-transition: background-image 1s ease-in-out;
     transition: background-image 1s ease-in-out;
-  }
+}
+#mountain {
+    width: 150%;
+    align
+}
 
 /* all buttons*/
 .button2 {
