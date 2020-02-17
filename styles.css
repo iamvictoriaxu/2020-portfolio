@@ -72,7 +72,7 @@ body {
     transition: background-image 1s ease-in-out;
 }
 #mountain {
-    width: 150%;
+    width: 100vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
