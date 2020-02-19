@@ -165,7 +165,7 @@ body {
         margin-left: 10vw;
         padding-top: 230px;
         padding-bottom: 24px;
-
+        z-index: 1;
     }
     #mountain2 {
         position: fixed;
@@ -180,7 +180,14 @@ body {
         display: inline-block;
         margin-left: 10%;
         padding-top: 16px;
-        padding-bottom: 40px
+        padding-bottom: 36px
+    }
+    #me {
+        position: relative;
+        width: 22%;
+        display: inline-block;
+        left: 65%;
+        bottom: 20vw;
     }
     
 /* all buttons*/
