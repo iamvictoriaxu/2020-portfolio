@@ -39,7 +39,8 @@ body {
         margin-right: auto;
     } 
     #pinkRectangle {
-        display: 10vw;
+        max-height: 50px;
+        width: 100%;
     }
     #shadows {
         width: 42vw;
@@ -109,14 +110,14 @@ body {
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
-        padding-top: 16px;
-        padding-bottom: 16px;
+        padding: 5vw 0vw 0vw 25vw;
+        padding-bottom: 20px;
         cursor: text;   
     } 
-    label{
+    label a {
         max-width: 500px;
         display: block;
-        padding: 5vw 0vw 0vw 30vw;
+        padding: 0vw 0vw 0vw 25vw;
         border: none;
         cursor: pointer;
         color: #ffffff;
@@ -124,7 +125,9 @@ body {
         font-weight: normal;
         font-size: 32px;
         letter-spacing: 2px;
+        text-decoration: none;
     }
+    /*line2*/
     label span{
         display: block;
         font-size: 16px;
@@ -133,15 +136,8 @@ body {
         font-weight: normal;
         padding-top: 12px;
         padding-bottom: 44px;
+        text-decoration: none;
     }
-    label input{
-        background:none;
-        border:none;
-    }
-    input[value]{
-       font-size: 0;
-       display: none;
-   }
     
 /* all buttons*/
     #VXU {
