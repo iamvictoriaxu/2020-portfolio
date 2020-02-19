@@ -40,9 +40,6 @@ body {
     } 
     #pinkRectangle {
         display: 10vw;
-        position: fixed;
-        bottom: 0px;
-        left: 0px;
     }
     #shadows {
         width: 42vw;
