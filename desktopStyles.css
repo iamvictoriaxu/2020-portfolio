@@ -39,7 +39,7 @@ body {
         margin-right: auto;
     } 
     #pinkRectangle {
-        display:none;
+        display: none;
     }
     #shadows {
         width: 42vw;
@@ -189,4 +189,17 @@ body {
         text-decoration: underline white; 
     }
     #MFButton:hover , #ChipHoundButton:hover, #MIPButton:hover*/
+}
+body {
+    background-image: url("homeimages/Stars@4x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: relative;
+
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
 }
