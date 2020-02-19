@@ -156,10 +156,9 @@ body {
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: normal;
         font-size: 14px;
-        height: 30px;
         letter-spacing: 1.95px;
         text-align: left;
-        position: absolute;
+        position: static;
     }
     #myLife {
         width: 50vw;
@@ -169,16 +168,19 @@ body {
 
     }
     #mountain2 {
-        position: absolute;
+        position: fixed;
+        display: inline-block;
         width: 50vw;
-        bottom: 0px;
         right: 0px;
+        bottom: 0px;
     }
     #skills {
         position: absolute;
         width: 360px;
-        bottom: 10px;
-        left: 10vw;
+        display: inline-block;
+        margin-left: 10%;
+        padding-top: 16px;
+        padding-bottom: 40px
     }
     
 /* all buttons*/
