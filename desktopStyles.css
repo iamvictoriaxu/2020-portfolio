@@ -1,0 +1,192 @@
+body {
+    background-color: #0A253A
+}
+/*DESKTOP*/
+@media screen and (min-width: 601px) {
+    #intro {
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        height: 30px;
+        letter-spacing: 1.95px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        padding-top: 258px;
+    }
+    #victoria {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 100px;
+        height: 126px;
+        letter-spacing: 7.33px;
+        width: 700px;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 85px;
+        margin: auto;
+    }
+    #mountainContainer {
+        position: relative;
+    }
+    /*Images*/
+    #mountain {
+        width: 100vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #pinkRectangle {
+        display:none;
+    }
+    #shadows {
+        width: 42vw;
+        display: inline;
+        position: absolute;
+        margin-left: 50px;
+        padding-top: 250px;
+        z-index: 10;
+    }
+    #CRtile {
+        width: 20vw;
+        display: inline-block;
+        position: absolute;
+        margin-left: 21%;
+        padding-top: 13%;
+        z-index: 11;
+    }
+    #MFtile {
+        width: 20vw;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2.2%;
+        padding-top: 21%;
+        z-index: 11;
+    }
+    #CHtile {
+        width: 20vw;
+        display: inline-block;
+        position: absolute;
+        margin-left: 24%;
+        padding-top: 33%;
+        z-index: 11;
+    }
+    #MIPtile {
+        width: 20vw;
+        display: inline-block;
+        position: absolute;
+        margin-left: 4.5%;
+        padding-top: 42%;
+        z-index: 11;
+    }
+    #mywork {
+        position: absolute;
+        top: 220px;
+        right: 100px;
+    } 
+    h1 {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        height: 100px;
+        width: 700px;
+        float: right;
+        text-align: right;
+        margin: auto;
+    } 
+    /*home page buttons*/
+    #pastwork, #tobesoon {
+        max-width: 500px;
+        display: block;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 1.95px;
+        text-align: left;
+        margin: auto;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        cursor: text;   
+    } 
+    label{
+        max-width: 500px;
+        display: block;
+        padding: 5vw 0vw 0vw 30vw;
+        border: none;
+        cursor: pointer;
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    label span{
+        display: block;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        padding-top: 12px;
+        padding-bottom: 44px;
+    }
+    label input{
+        background:none;
+        border:none;
+    }
+    input[value]{
+       font-size: 0;
+       display: none;
+   }
+    
+/* all buttons*/
+    #VXU {
+        background-color: transparent;
+        color: #ffffff;
+        font-family: 'Unica One', cursive;
+        font-size: 28px;
+        font-weight: normal;
+        height: 33px;
+        letter-spacing: 2px;
+        width: 54px;
+        float: left;
+        cursor: pointer;
+        text-decoration: none;
+        text-align: left;
+        padding-left: 24px;
+        padding-top: 24px;
+        transition-duration: 0.4s;
+    }
+    #tabButton {
+        background-color: Transparent;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        height: 24px;
+        letter-spacing: 1.33px;
+        display: block;
+        float: right;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 36px;
+        margin-right: 44px;
+        padding: 4px 24px 4px 24px;
+        transition-duration: 0.4s;
+    }
+    #tabButton:hover {
+        background-color: transparent; 
+        color: white;
+        border: 2px solid white;
+        border-radius: 50px;
+    }
+    /*
+    #CRButton:hover , #MFButton:hover{
+        text-decoration: underline white; 
+    }
+    #MFButton:hover , #ChipHoundButton:hover, #MIPButton:hover*/
+}
