@@ -33,13 +33,16 @@ body {
     }
     /*Images*/
     #mountain {
-        width: 100vw;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     } 
     #pinkRectangle {
-        display: none;
+        display: 10vw;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
     }
     #shadows {
         width: 42vw;
