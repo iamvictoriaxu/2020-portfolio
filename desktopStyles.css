@@ -129,7 +129,7 @@ body {
     }
     /*line2*/
     label span{
-        display: ;
+        display: block;
         font-size: 16px;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
@@ -143,7 +143,7 @@ body {
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
-        font-size: 32px;
+        font-size: 36px;
         letter-spacing: 2px;
         display: block;
         text-align: left;
@@ -165,7 +165,6 @@ body {
         margin-left: 10vw;
         padding-top: 230px;
         padding-bottom: 24px;
-        z-index: 1;
     }
     #mountain2 {
         position: fixed;
@@ -174,13 +173,14 @@ body {
         right: 0px;
         bottom: 0px;
     }
-    #skills {
+    .skills {
         position: absolute;
-        width: 360px;
         display: inline-block;
         margin-left: 10%;
         padding-top: 16px;
-        padding-bottom: 36px
+        padding-bottom: 36px;
+        height: 140px;
+        width: 392px;
     }
     #me {
         position: relative;
@@ -189,6 +189,51 @@ body {
         left: 65%;
         bottom: 20vw;
     }
+    /*Control Room*/
+    #CRdescription {
+        width: 30vw;
+        margin-left: 10vw;
+        padding-top: 230px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 418px;
+    }
+    #welcomeCR {
+        position: absolute;
+        width: 45%;
+        display: inline-block;
+        left: 50%;
+        top: 16vw
+    }
+    #stepTitle {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 30px;
+        letter-spacing: 2px;
+        display: inline-block;
+        text-align: left;
+        margin-left: 22vw;
+        position: absolute;
+        padding-top: 350px;
+        padding-bottom: 24px;
+    }
+    #goalCR {
+        margin-left: 22vw;
+        padding-top: 400px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    
     
 /* all buttons*/
     #VXU {
@@ -208,7 +253,7 @@ body {
         padding-top: 24px;
         transition-duration: 0.4s;
     }
-    #tabButton {
+    .tabButton {
         background-color: Transparent;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
@@ -225,12 +270,54 @@ body {
         padding: 4px 24px 4px 24px;
         transition-duration: 0.4s;
     }
-    #tabButton:hover {
+    .tabButton:hover {
         background-color: transparent; 
         color: white;
         border: 2px solid white;
         border-radius: 50px;
     }
+    #nextPage {
+        background-color: Transparent;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        height: 24px;
+        letter-spacing: 1.33px;
+        display: block;
+        float: right;
+        text-decoration: none;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: 40px;
+        padding: 100px 40px 100px 40px;
+        transition-duration: 0.4s;
+    }
+
+    #previousPage {
+        background-color: Transparent;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        height: 24px;
+        letter-spacing: 1.33px;
+        display: block;
+        float: left;
+        text-decoration: none;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: 40px;
+        padding: 100px 40px 100px 40px;
+        transition-duration: 0.4s;
+    }
+
+    #nextPage:hover , #previousPage:hover {
+        background-color: transparent; 
+        color: white;
+        font-weight: 700;
+    }
+
     /*
     #CRButton:hover , #MFButton:hover{
         text-decoration: underline white; 
@@ -243,10 +330,4 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: relative;
-
-    max-width: 100%;
-    min-height: 100%;
-    margin: 0;
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
 }

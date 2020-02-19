@@ -14,7 +14,7 @@
     <a href="aboutme.html" id="tabButton">about me</a>
     <a href="work.html" id="tabButton">work</a>
     <div id="pageTitle" >About me</div>
-    <div class="description" id="myLife">
+    <div class="description" id="myLife" data-aos="fade-up">
         <span> Hi there! My name is Victoria Xu. I am a UI/UX designer based in Sydney, currently building 
             a mobile and web application for Woolworths. I have been creating and designing experiences for 
             2 years now. I love bringing detail into everything I design and am a strong believer that life 
@@ -29,10 +29,17 @@
             I also enjoy watching a good movie and am an old soul when it comes to my love for jazz and picnics. 
         </span>
     </div>
-    <div><img id="skills" src="Aboutme/skills@4x.png" ></div>
-    <img id="me" src="Aboutme/me@3x.png" >
-    <img id="mountain2" src="Aboutme/mountain2@4x.png" >
-    
+    <div><img class="skills" src="Aboutme/skills@4x.png" data-aos="fade-up"></div>
+    <img id="me" src="Aboutme/me@3x.png" data-aos="fade-up" >
+    <img id="mountain2" src="Aboutme/mountain2@4x.png" data-aos="fade-up" >
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<script>
+		AOS.init({
+		  duration: 1000,
+		})
+	</script>
 
 </body>
 </html>
