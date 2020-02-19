@@ -1,5 +1,10 @@
 body {
-    background-color: #0A253A
+    background-color: #0A253A;
+    background-image: url("homeimages/Stars@4x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: relative;
 }
 /*DESKTOP*/
 @media only screen and (min-width: 601px) {
@@ -317,17 +322,4 @@ body {
         color: white;
         font-weight: 700;
     }
-
-    /*
-    #CRButton:hover , #MFButton:hover{
-        text-decoration: underline white; 
-    }
-    #MFButton:hover , #ChipHoundButton:hover, #MIPButton:hover*/
-}
-body {
-    background-image: url("homeimages/Stars@4x.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: relative;
 }
