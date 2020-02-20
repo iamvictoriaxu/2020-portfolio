@@ -214,7 +214,7 @@ body {
         left: 50%;
         top: 16vw
     }
-    #stepTitle {
+    .stepTitle {
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
@@ -238,7 +238,64 @@ body {
         line-height: 28px;
         width: 840px;
     }
-    
+    #step2 , #step3 , #step4 {
+        padding-top: 0px !important;
+    }
+    #client {
+        margin-left: 22vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #problem {
+        margin-left: 22vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 240px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #solution1 {
+        margin-left: 22vw;
+        padding-top: 115px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #CRS1 {
+        position: relative;
+        width: 65%;
+        display: inline-block;
+        margin-left: 20%;
+    }
+    #subheading {
+        padding-top: 500px !important;
+        margin-left: 10vw;
+    }
+    #solution2 {
+        margin-left: 22vw;
+        padding-top: 140px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+
     
 /* all buttons*/
     #VXU {
