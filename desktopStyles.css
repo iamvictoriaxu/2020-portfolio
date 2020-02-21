@@ -9,7 +9,7 @@
 }
 #CRpage, #MFpage, #CHpage, #MIPpage {
     background-color: #0A253A;
-    background-image: url("homeimages/Stars@4x.png");
+    background-image: url("homeimages/Starsnomoon@4x.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
@@ -290,7 +290,6 @@
         width: 65%;
         display: inline-block;
         margin-left: 20%;
-        margin-right: 20%;
         padding-bottom: 60px;
     }
     #subheading {
@@ -313,8 +312,7 @@
         width: 60%;
         display: inline-block;
         margin-left: 21%;
-        margin-right: 20%;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     #solution3 {
         margin-left: 22vw;
@@ -494,7 +492,7 @@
         width: 55%;
         display: inline-block;
         margin-left: 22%;
-        margin-right: 20%;
+        margin-right: 0%;
         padding-bottom: 60px;
     }
     #whiteBackground {
