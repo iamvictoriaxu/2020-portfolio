@@ -155,7 +155,7 @@
         text-decoration: none;
     }
     .twoLineButton:hover {
-        text-decoration: underline white;
+        font-weight: 1000;
         text-decoration-style: dashed;
     }
     
