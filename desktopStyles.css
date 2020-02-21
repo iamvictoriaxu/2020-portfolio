@@ -1,4 +1,4 @@
-#homepage, #aboutme {
+#homepage {
     background-color: #0A253A;
     background-image: url("homeimages/Stars@4x.png");
     background-size: 100%;
@@ -7,7 +7,7 @@
     background-attachment: relative;
     margin: 0; 
 }
-#CRpage, #MFpage, #CHpage, #MIPpage {
+#CRpage, #MFpage, #CHpage, #MIPpage, #aboutme {
     background-color: #0A253A;
     background-image: url("homeimages/Starsnomoon@4x.png");
     background-size: 100%;
@@ -74,6 +74,7 @@
         padding-top: 13%;
         z-index: 11;
     }
+
     #MFtile {
         width: 20vw;
         display: inline-block;
@@ -121,8 +122,8 @@
         display: block;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-weight: normal;
-        font-size: 16px;
+        font-weight: 500;
+        font-size: 20px;
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
