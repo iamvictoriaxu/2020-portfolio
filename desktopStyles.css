@@ -441,7 +441,69 @@ body {
         display: block;
     }
 /************** CHIPHOUND **************/
-
+    #welcomeCH {
+        position: absolute !important;
+        width: 35% !important;
+        display: inline-block !important;
+        left: 55% !important;
+        top: 16vw !important;
+    }
+    #CHsticker{
+        display: none;
+        /*position: relative;
+        width: 30%;
+        display: inline-block;
+        margin-left: 50%;
+        margin-right: 0%;
+        margin-top:-280px;
+        padding-bottom: 60px;*/
+    }
+    #solution1CH {
+        margin-left: 22vw;
+        padding-top: 115px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 170px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #solution2CH {
+        margin-left: 22vw;
+        padding-top: 140px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #CHS2 { 
+        position: relative;
+        width: 55%;
+        display: inline-block;
+        margin-left: 22%;
+        margin-right: 20%;
+        padding-bottom: 60px;
+    }
+    #whiteBackground {
+        position: relative;
+        width: 62%;
+        height: 40vw;
+        display: inline-block;
+        margin-left: 20%;
+        padding-bottom: 60px;
+        z-index: 1;
+    }
+    #prototypeCH{
+        z-index: 10;
+        position: absolute;
+        margin-left: 21%;
+        margin-top:-600px;
+        display: block;
+    }
 /* all buttons*/
     #VXU {
         background-color: transparent;
