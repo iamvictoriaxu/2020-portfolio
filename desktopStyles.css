@@ -195,8 +195,11 @@
         margin-left: 10%;
         padding-top: 16px;
         padding-bottom: 36px;
-        height: 160px;
+        height: 140px;
         width: 392px;
+    }
+    #skillsAboutMe {
+        height: 160px !important;
     }
     #me {
         position: relative;
