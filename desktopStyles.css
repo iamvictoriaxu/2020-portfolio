@@ -657,6 +657,12 @@
         border: 2px solid white;
         border-radius: 50px;
     }
+    .tabButton:active {
+        background-color: white; 
+        fill-opacity: 50%;
+        border: 2px solid white;
+        border-radius: 50px;
+    }
     #nextPage {
         background-color: Transparent;
         color: #ffffff;
@@ -691,7 +697,6 @@
         padding: 120px 40px 60px 40px;
         transition-duration: 0.4s;
     }
-
     #nextPage:hover , #previousPage:hover {
         background-color: transparent; 
         color: white;
