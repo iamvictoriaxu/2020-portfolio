@@ -154,6 +154,11 @@
         padding-bottom: 44px;
         text-decoration: none;
     }
+    .twoLineButton:hover {
+        text-decoration: underline white;
+        text-decoration-style: dashed;
+    }
+    
 /************** ABOUT ME **************/
     #pageTitle {
         color: #ffffff;
