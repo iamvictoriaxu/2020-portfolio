@@ -195,7 +195,7 @@
         margin-left: 10%;
         padding-top: 16px;
         padding-bottom: 36px;
-        height: 140px;
+        height: 160px;
         width: 392px;
     }
     #me {
@@ -659,7 +659,7 @@
     }
     .tabButton:active {
         background-color: white; 
-        fill-opacity: 50%;
+        fill-opacity: 30%;
         border: 2px solid white;
         border-radius: 50px;
     }
