@@ -65,7 +65,10 @@
         margin-right: auto;
     } 
     #pinkRectangle {
-        max-height: 300px;
+        display:none;
+    }
+    #pinkRectangleMobile { 
+        max-height:50%;
         width: 100%;
     }
     .shadows {
@@ -140,8 +143,8 @@
         margin: auto;
     } 
     /*home page links*/
-    #pastwork, #tobesoon {
-        max-width: 500px;
+    #pastwork {
+        max-width: 400px;
         display: block;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
@@ -150,12 +153,26 @@
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
-        padding: 0vw 0vw 0vw 15vw;
+        padding: 90vw 0vw 0vw 15vw;
+        padding-bottom: 20px;
+        cursor: text;   
+    } 
+    #tobesoon {
+        max-width: 400px;
+        display: block;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 1.95px;
+        text-align: left;
+        margin: auto;
+        padding: 16vw 0vw 0vw 15vw;
         padding-bottom: 20px;
         cursor: text;   
     } 
     label a {
-        max-width: 500px;
+        max-width: 400px;
         display: block;
         padding: 0vw 0vw 0vw 15vw;
         border: none;

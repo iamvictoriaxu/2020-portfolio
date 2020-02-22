@@ -69,6 +69,9 @@
         max-height: 50px;
         width: 100%;
     }
+    #pinkRectangleMobile {
+        display:none;
+    }
     .shadows {
         width: 20%;
         display: block;
