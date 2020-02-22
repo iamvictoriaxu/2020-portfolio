@@ -404,6 +404,21 @@
         width: 840px;
     }
 /************** MISSING FORWARDER **************/
+    #step3MF {
+        margin-left: 22vw !important;
+        padding-top: 0px !important;
+    }
+    #problemMF {
+        margin-left: 22vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 160px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
     #MFstep4 {
         margin-left: 16vw !important;
         padding-top: 0px !important;
@@ -494,6 +509,18 @@
         left: 55% !important;
         top: 16vw !important;
     }
+    #introdescriptionCH {
+        width: 30vw;
+        margin-left: 10vw;
+        padding-top: 230px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 418px;
+    }
     #CHsticker{
         display: none;
         /*position: relative;
@@ -511,6 +538,20 @@
         font-size: 16px;
         font-weight: normal;
         height: 170px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #step3CH{
+        padding-top: 0px !important;
+    }
+    #problemCH{
+        margin-left: 22vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 240px;
         letter-spacing: 1.2px;
         line-height: 28px;
         width: 840px;
@@ -533,6 +574,17 @@
         margin-left: 22%;
         margin-right: 0%;
         padding-bottom: 60px;
+    }
+    #solution3CH {
+        margin-left: 22vw;
+        padding-top: 140px;
+        padding-bottom: 40px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
     }
     #whiteBackground {
         position: relative;
@@ -564,6 +616,18 @@
         height: 160px;
     }
 /************** MIP **************/
+    #introdescriptionMIP {
+        width: 30vw;
+        margin-left: 10vw;
+        padding-top: 230px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 418px;
+    }
     #MIPskills {
         position: absolute;
         display: inline-block;
@@ -650,15 +714,15 @@
     }
     #MIP4 {
         position: relative;
-        width: 60%;
+        width: 70%;
         display: inline-block;
-        margin-left: 20%;
+        margin-left: 16%;
         padding-bottom: 40px;
     }
     #blackBackgroundMIP {
         position: relative;
         width: 100%;
-        height: 97vw;
+        height: 110vw;
         padding-top: 40px;
         display: inline-block;
         margin: auto;
@@ -667,10 +731,10 @@
     }
     #prototypeMIP0 {
         z-index: 10;
-        width: 70%;
+        width: 78%;
         position: absolute;
-        margin-left: 17%;
-        margin-top: -95%;
+        margin-left: 10%;
+        margin-top: -108%;
         display: block;
     }
 /* all buttons*/

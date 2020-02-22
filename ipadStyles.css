@@ -427,6 +427,21 @@
         height: 135px;
         width: 364px;
     }
+    #step3MF {
+        margin-left: 22vw !important;
+        padding-top: 0px !important;
+    }
+    #problemMF {
+        margin-left: 22vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 160px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 60%;
+    }
     #MFstep4 {
         margin-left: 12vw !important;
         padding-top: 0px !important;
@@ -517,6 +532,32 @@
         left: 55% !important;
         top: 21vw !important;
     }
+    #introdescriptionCH {
+        width: 30vw;
+        margin-left: 10vw;
+        padding-top: 230px;
+        padding-bottom: 24px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 130px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 35%;
+    }
+    #step3CH{
+        padding-top: 0px !important;
+    }
+    #problemCH {
+        margin-left: 22vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 240px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 60%;
+    }
     #skillsCH {
         position: absolute;
         display: inline-block;
@@ -577,6 +618,17 @@
         margin-right: 0%;
         padding-bottom: 60px;
     }
+    #solution3CH {
+        margin-left: 22vw;
+        padding-top: 140px;
+        padding-bottom: 40px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 80px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 60%;
+    }
     #whiteBackground {
         position: relative;
         width: 64%;
@@ -603,6 +655,18 @@
     }
 
 /************** MIP **************/
+    #introdescriptionMIP {
+        width: 30vw;
+        margin-left: 10vw;
+        padding-top: 230px;
+        padding-bottom: 24px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 130px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 35%;
+    }
     #MIPskills {
         position: absolute;
         display: inline-block;
