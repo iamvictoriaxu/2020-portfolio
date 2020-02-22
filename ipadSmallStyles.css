@@ -26,10 +26,10 @@
     background-attachment: static;
     margin: 0; 
 }
-/*IPAD*/
+/*IPAD SMALLLLL*/
 @media only screen 
-        and (min-width: 748px) 
-        and (max-width : 1024px) 
+        and (min-width: 561px) 
+        and (max-width : 747px) 
         and (-webkit-min-device-pixel-ratio: 1.5) {
             
 /************** HOME PAGE **************/

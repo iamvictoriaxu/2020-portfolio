@@ -7,7 +7,7 @@
     background-attachment: relative;
     margin: 0; 
 }
-#CRpage, #MFpage, #CHpage, #MIPpage, #aboutme {
+#MFpage, #MIPpage, #aboutme {
     background-color: #0A253A;
     background-image: url("homeimages/Starsnomoon@4x.png");
     background-size: 100%;
@@ -16,6 +16,17 @@
     background-attachment: static;
     margin: 0; 
 }
+
+#CRpage, #CHpage {
+    background-color: #4D92AB;
+    background-image: url("homeimages/Starsnomoon@4x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: static;
+    margin: 0; 
+}
+
 /*DESKTOP*/
 @media only screen and (min-width: 1025px) {
 /************** HOME PAGE **************/
@@ -360,7 +371,7 @@
         z-index: 10;
         position: absolute;
         margin-left: 20%;
-        margin-top:-45%;
+        margin-top:-50%;
         display: block;
     }
     #reflection {
@@ -536,6 +547,15 @@
         height: 10%;
         width: 15%;
         display: block;
+    }
+    #marketresearch {
+        margin-left: 22vw !important;
+        padding-top: 0px !important;
+    }
+    #clientCH {
+        margin-left: 22vw !important;
+        padding-top: 56px !important;
+        height: 160px;
     }
 /************** MIP **************/
     #MIPskills {
