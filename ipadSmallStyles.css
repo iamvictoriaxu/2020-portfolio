@@ -146,6 +146,7 @@
         text-align: right;
         margin: auto;
     } 
+    
     /*home page links*/
     #pastwork, #tobesoon {
         max-width: 500px;
@@ -243,6 +244,9 @@
         display: inline-block;
         left: 65%;
         bottom: 20vw;
+    }
+    #meMobile {
+        display:none;
     }
 /************** CONTROL ROOM **************/
     #introdescription {

@@ -241,6 +241,9 @@
         left: 65%;
         bottom: 20vw;
     }
+    #meMobile {
+        display:none;
+    }
 /************** CONTROL ROOM **************/
     #introdescription {
         width: 30vw;

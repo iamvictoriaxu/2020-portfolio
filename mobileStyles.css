@@ -205,7 +205,7 @@
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
-        font-size: 32px;
+        font-size: 28px;
         letter-spacing: 2px;
         display: block;
         text-align: left;
@@ -223,9 +223,9 @@
         position: static;
     }
     #myLife {
-        width: 50vw;
+        width: 80vw;
         margin-left: 10vw;
-        padding-top: 230px;
+        padding-top: 260px;
         padding-bottom: 24px;
     }
     #mountain2 {
@@ -242,17 +242,20 @@
         padding-top: 16px;
         padding-bottom: 36px;
         height: 130px;
-        width: 392px;
+        width: 388px;
     }
     #skillsAboutMe {
         height: 160px !important;
     }
     #me {
+        display: none;
+    }
+    #meMobile {
         position: relative;
-        width: 22%;
+        width: 50%;
         display: inline-block;
-        left: 65%;
-        bottom: 20vw;
+        left: 7%;
+        top: 40vw;  
     }
 /************** CONTROL ROOM **************/
     #introdescription {
