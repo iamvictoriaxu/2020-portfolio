@@ -45,12 +45,12 @@
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
-        font-size: 60px;
+        font-size: 58px;
         height: 126px;
         letter-spacing: 7.33px;
         width: 400px;
         text-align: center;
-        padding-top: 8px;
+        padding-top: 4px;
         padding-bottom: 85px;
         margin: auto;
     }
@@ -284,7 +284,7 @@
         width: 80%;
         display: inline-block;
         left: 10%;
-        top: 40vw
+        top: 32%;
     }
     .stepTitle {
         color: #ffffff;
@@ -842,7 +842,7 @@
         text-decoration: none;
         text-align: center;
         margin-top: 36px;
-        margin-right: 44px;
+        margin-right: 0%;
         padding: 4px 24px 4px 24px;
         transition-duration: 0.4s;
     }
