@@ -2,7 +2,8 @@
 <html>
 <head>
     <link rel="stylesheet" media="(min-width: 1025px)" href="desktopStyles.css">
-    <link rel="stylesheet" media="(max-width: 600px)" href="mobileStyles.css">
+    <link rel="stylesheet" media="(max-width: 560px)" href="mobileStyles.css">
+    <link rel="stylesheet" media="(min-width: 748px) and (max-width : 1024px) " href="ipadStyles.css">
     <link href="https://fonts.googleapis.com/css?family=Oranienbaum|PT+Sans+Narrow:400,700|Unica+One&display=swap" rel="stylesheet">
     <link rel="icon" href="homeimages/moon@4x.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -21,19 +22,23 @@
         <img id="MFtile" src="homeimages/missing forwarder tile@4x.png" href="Missing_Forwarder.html">
         <img id="CHtile" src="homeimages/ChipHound tile@4x.png" href="ChipHound.html">
         <img id="MIPtile" src="homeimages/MIP tile@4x.png" href="MIP.html">
-        <img id="shadows" src="homeimages/shadows@4x.png">
+        <img class="shadows" id="CRshadow" src="homeimages/shadow.png">
+        <img class="shadows" id="MFshadow" src="homeimages/shadow.png">
+        <img class="shadows" id="CHshadow" src="homeimages/shadow.png">
+        <img class="shadows" id="MIPshadow" src="homeimages/shadow.png">
+
         <img id="mountain" src="homeimages/mountains@4x.png">
         <img id="pinkRectangle" src="homeimages/pinkRectangle@4x.png">
         <div id="mywork" data-aos="fade-up">
-                <div class="H1-title-right"><h1>my work</h1></div>
-                    <label> 
-                        <div id="pastwork" data-aos="fade-up"><p>past work</p></div>
-                            <a href="Control_Room.html" class="twoLineButton" data-aos="fade-up" >01. Control Room<span>Accenture</span></a>
-                            <a href="Missing_Forwarder.html" class="twoLineButton" data-aos="fade-up">02. Missing Forwarder<span>Accenture</span></a>
-                            <a href="ChipHound.html" class="twoLineButton" data-aos="fade-up">03. ChipHound<span>University of New South Wales</span></a>
-                            <div id="tobesoon" data-aos="fade-up"><p>upcoming projects</p></div>
-                            <a href="MIP.html" class="twoLineButton" data-aos="fade-up">04. My Insurance Portal<span>Woolworths</span></a>
-                    </label>
+        <div class="H1-title-right"><h1>my work</h1></div>
+        <label> 
+            <div id="pastwork" data-aos="fade-up"><p>past work</p></div>
+            <a href="Control_Room.html" class="twoLineButton" data-aos="fade-up" >01. Control Room<span>Accenture</span></a>
+            <a href="Missing_Forwarder.html" class="twoLineButton" data-aos="fade-up">02. Missing Forwarder<span>Accenture</span></a>
+            <a href="ChipHound.html" class="twoLineButton" data-aos="fade-up">03. ChipHound<span>University of New South Wales</span></a>
+            <div id="tobesoon" data-aos="fade-up"><p>upcoming projects</p></div>
+            <a href="MIP.html" class="twoLineButton" data-aos="fade-up">04. My Insurance Portal<span>Woolworths</span></a>
+        </label>
         </div>
     </div>
 

@@ -1,5 +1,20 @@
-body {
-    background-color: #0A253A
+#homepage {
+    background-color: #0A253A;
+    background-image: url("homeimages/Stars@4x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: relative;
+    margin: 0; 
+}
+#CRpage, #MFpage, #CHpage, #MIPpage, #aboutme {
+    background-color: #0A253A;
+    background-image: url("homeimages/Starsnomoon@4x.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: static;
+    margin: 0; 
 }
 /*MOBILE*/
 @media only screen and (max-width: 560px) {
@@ -190,20 +205,6 @@ body {
     opacity: 50%;
     }
     
-}
-
-body {
-    background-image: url("homeimages/Stars@4x.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: relative;
-
-    max-width: 100%;
-    min-height: 100%;
-    margin: 0;
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
 }
 
 /*
