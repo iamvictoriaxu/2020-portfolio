@@ -65,9 +65,11 @@
         margin-left: auto;
         margin-right: auto;
     } 
+    #mountainIpad {
+        display: none;
+    }
     #pinkRectangle {
-        max-height: 50px;
-        width: 100%;
+        display:none;
     }
     #pinkRectangleMobile {
         display:none;
@@ -82,49 +84,49 @@
         width: 20vw;
         display: inline-block;
         position: absolute;
-        margin-left: 21%;
-        padding-top: 18%;
+        margin-left: 25%;
+        padding-top: 19%;
         z-index: 11;
     }
     #CRshadow {
-        margin-left: 22%;
-        padding-top: 21%;
+        margin-left: 26%;
+        padding-top: 22%;
     }
     #MFtile {
         width: 20vw;
         display: inline-block;
         position: absolute;
-        margin-left: 2.2%;
-        padding-top: 26%;
+        margin-left: 6.2%;
+        padding-top: 27%;
         z-index: 11;
     }
     #MFshadow {
-        margin-left: 3.2%;
-        padding-top: 29%;
+        margin-left: 7.2%;
+        padding-top: 30%;
     }
     #CHtile {
         width: 20vw;
         display: inline-block;
         position: absolute;
-        margin-left: 24%;
-        padding-top: 38%;
+        margin-left: 28%;
+        padding-top: 39%;
         z-index: 11;
     }
     #CHshadow {
-        margin-left: 25%;
-        padding-top: 41%;
+        margin-left: 29%;
+        padding-top: 42%;
     }
     #MIPtile {
         width: 20vw;
         display: inline-block;
         position: absolute;
-        margin-left: 4.5%;
-        padding-top: 47%;
+        margin-left: 8.5%;
+        padding-top: 48%;
         z-index: 11;
     }
     #MIPshadow {
-        margin-left: 5.5%;
-        padding-top: 50%;
+        margin-left: 9.5%;
+        padding-top: 51%;
     }
     #mywork {
         position: absolute;
@@ -143,6 +145,24 @@
         text-align: right;
         margin: auto;
     } 
+    h2 {
+        color: #ffffff;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        height: 24px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        display: block;
+        float: right;
+        text-align: right;
+        margin-top:auto;
+        margin-bottom: 0px;
+        padding-right: 8px;
+    } 
+    #emailme {
+        margin-top: 140px;
+    }
+
     /*home page links*/
     #pastwork, #tobesoon {
         max-width: 500px;
@@ -154,14 +174,14 @@
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
-        padding: 0vw 0vw 0vw 15vw;
+        padding: 0vw 0vw 0vw 10vw;
         padding-bottom: 20px;
         cursor: text;   
     } 
     label a {
         max-width: 500px;
         display: block;
-        padding: 0vw 0vw 0vw 15vw;
+        padding: 0vw 0vw 0vw 10vw;
         border: none;
         cursor: pointer;
         color: #ffffff;
@@ -239,7 +259,7 @@
         width: 22%;
         display: inline-block;
         left: 65%;
-        bottom: 20vw;
+        bottom: 15vw;
     }
     #meMobile {
         display:none;
@@ -262,7 +282,7 @@
         width: 45%;
         display: inline-block;
         left: 50%;
-        top: 16vw
+        top: 10vw
     }
     .stepTitle {
         color: #ffffff;
@@ -383,7 +403,7 @@
     #reflection {
         position: relative;
         margin-left: 22vw;
-        padding-top: 40px;
+        padding-top: 100px;
         padding-bottom: 0px;
         font-size: 30px;
         font-weight: normal;
@@ -507,7 +527,7 @@
         width: 35% !important;
         display: inline-block !important;
         left: 55% !important;
-        top: 16vw !important;
+        top: 10vw !important;
     }
     #introdescriptionCH {
         width: 30vw;
@@ -521,15 +541,21 @@
         line-height: 28px;
         width: 418px;
     }
-    #CHsticker{
-        display: none;
-        /*position: relative;
-        width: 30%;
-        display: inline-block;
-        margin-left: 50%;
-        margin-right: 0%;
-        margin-top:-280px;
-        padding-bottom: 60px;*/
+    #circle1 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 60px;
+        margin-bottom: 60px;
+        z-index: -1;
+    }
+    #circle2{
+        position: relative;
+        width: 8%;
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 60px;
+        z-index: -1;
     }
     #solution1CH {
         margin-left: 22vw;
@@ -634,7 +660,7 @@
         margin-left: 10%;
         padding-top: 16px;
         padding-bottom: 36px;
-        height: 175px;
+        height: 194px;
         width: 392px;
     }
     #clientMIP {
@@ -751,7 +777,7 @@
         cursor: pointer;
         text-decoration: none;
         text-align: left;
-        padding-left: 24px;
+        padding-left: 30px;
         padding-top: 24px;
         transition-duration: 0.4s;
     }
@@ -761,14 +787,14 @@
         font-family: 'PT Sans Narrow', sans-serif;
         font-size: 18px;
         font-weight: normal;
-        height: 24px;
+        height: 20px;
         letter-spacing: 1.33px;
         display: block;
         float: right;
         text-decoration: none;
         text-align: center;
-        margin-top: 36px;
-        margin-right: 44px;
+        margin-top: 30px;
+        margin-right: 30px;
         padding: 4px 24px 4px 24px;
         transition-duration: 0.4s;
     }
@@ -796,9 +822,9 @@
         float: right;
         text-decoration: none;
         text-align: right;
-        margin-top: auto;
+        margin-top: 120px;
         margin-bottom: 0px;
-        padding: 120px 40px 60px 40px;
+        padding: 0px 40px 60px 40px;
         transition-duration: 0.4s;
     }
     #previousPage {
@@ -813,9 +839,9 @@
         float: left;
         text-decoration: none;
         text-align: left;
-        margin-top: auto;
+        margin-top: 120px;
         margin-bottom: 0px;
-        padding: 120px 40px 60px 40px;
+        padding: 0px 40px 60px 40px;
         transition-duration: 0.4s;
     }
     #nextPage:hover , #previousPage:hover {

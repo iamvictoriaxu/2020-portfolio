@@ -63,13 +63,16 @@
     }
     /*Images*/
     #mountain {
+        display:none;
+    } 
+    #mountainIpad {
         width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-    } 
+    }
     #pinkRectangle {
-        max-height: 300px;
+        max-height: 40vw;
         width: 100%;
     }
     #pinkRectangleMobile {
@@ -146,6 +149,22 @@
         text-align: right;
         margin: auto;
     } 
+    h2 {
+        color: #ffffff;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+        display: block;
+        float: right;
+        text-align: right;
+        margin-bottom: 36px;
+        padding-right: 8px;
+    } 
+    #emailme {
+        margin-top: 60px;
+    }
+
     /*home page links*/
     #pastwork, #tobesoon {
         max-width: 500px;
@@ -242,7 +261,7 @@
         width: 22%;
         display: inline-block;
         left: 65%;
-        bottom: 20vw;
+        bottom: 15vw;
     }
     #meMobile {
         display:none;
@@ -567,6 +586,22 @@
         height: 135px;
         width: 364px;
     }
+    #circle1 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 60px;
+        margin-bottom: 60px;
+        z-index: -1;
+    }
+    #circle2{
+        position: relative;
+        width: 8%;
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 60px;
+        z-index: -1;
+    }
     #CHsticker{
         display: none;
         /*position: relative;
@@ -791,7 +826,7 @@
         cursor: pointer;
         text-decoration: none;
         text-align: left;
-        padding-left: 24px;
+        padding-left: 30px;
         padding-top: 24px;
         transition-duration: 0.4s;
     }
@@ -807,8 +842,8 @@
         float: right;
         text-decoration: none;
         text-align: center;
-        margin-top: 36px;
-        margin-right: 44px;
+        margin-top: 30px;
+        margin-right: 30px;
         padding: 4px 24px 4px 24px;
         transition-duration: 0.4s;
     }
@@ -836,9 +871,9 @@
         float: right;
         text-decoration: none;
         text-align: right;
-        margin-top: auto;
+        margin-top: 120px;
         margin-bottom: 0px;
-        padding: 120px 40px 60px 40px;
+        padding: 0px 40px 60px 40px;
         transition-duration: 0.4s;
     }
     #previousPage {
@@ -853,9 +888,9 @@
         float: left;
         text-decoration: none;
         text-align: left;
-        margin-top: auto;
+        margin-top: 120px;
         margin-bottom: 0px;
-        padding: 120px 40px 60px 40px;
+        padding: 0px 40px 60px 40px;
         transition-duration: 0.4s;
     }
     #nextPage:hover , #previousPage:hover {

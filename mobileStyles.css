@@ -64,6 +64,9 @@
         margin-left: auto;
         margin-right: auto;
     } 
+    #mountainIpad {
+        display:none;
+    }
     #pinkRectangle {
         display:none;
     }
@@ -142,6 +145,22 @@
         text-align: right;
         margin: auto;
     } 
+    h2 {
+        color: #ffffff;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+        display: block;
+        float: right;
+        text-align: right;
+        margin-bottom: 36px;
+        padding-right: 8px;
+    } 
+    #emailme {
+        margin-top: 70px;
+    }
+
     /*home page links*/
     #pastwork {
         max-width: 400px;
@@ -591,6 +610,22 @@
         margin-top:-280px;
         padding-bottom: 60px;*/
     }
+    #circle1 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 60px;
+        margin-bottom: 60px;
+        z-index: -1;
+    }
+    #circle2{
+        position: relative;
+        width: 8%;
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 60px;
+        z-index: -1;
+    }
     #clientCH {
         margin-left: 22vw;
         padding-top: 50px;
@@ -870,9 +905,9 @@
         float: center;
         text-decoration: none;
         text-align: center;
-        margin-top: auto;
+        margin-top: 160px;
         margin-bottom: 0px;
-        padding: 120px 40px 0px 40px;
+        padding: 0px 40px 0px 40px;
         transition-duration: 0.4s;
     }
     #previousPage {
@@ -887,9 +922,9 @@
         float: center;
         text-decoration: none;
         text-align: center;
-        margin-top: auto;
+        margin-top: 40px;
         margin-bottom: 0px;
-        padding: 40px 40px 60px 40px;
+        padding: 0px 40px 60px 40px;
         transition-duration: 0.4s;
     }
     #nextPage:hover , #previousPage:hover {
