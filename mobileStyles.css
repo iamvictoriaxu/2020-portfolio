@@ -154,8 +154,9 @@
         display: block;
         float: right;
         text-align: right;
-        margin-bottom: 36px;
-        padding-right: 8px;
+        margin-bottom: 30px;
+        margin-top:120px;
+        margin-right: 8px;
     } 
     #emailme {
         margin-top: 70px;
@@ -172,8 +173,8 @@
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
-        padding: 90vw 0vw 0vw 15vw;
-        padding-bottom: 20px;
+        margin: 90vw 0vw 0vw 15vw;
+        margin-bottom: 20px;
         cursor: text;   
     } 
     #tobesoon {
@@ -185,15 +186,14 @@
         font-size: 18px;
         letter-spacing: 1.95px;
         text-align: left;
-        margin: auto;
-        padding: 16vw 0vw 0vw 15vw;
-        padding-bottom: 20px;
+        margin: 20vw 0vw 0vw 15vw;
+        margin-bottom: 20px;
         cursor: text;   
     } 
     label a {
         max-width: 400px;
         display: block;
-        padding: 0vw 0vw 0vw 15vw;
+        margin: 0vw 0vw 0vw 15vw;
         border: none;
         cursor: pointer;
         color: #ffffff;
@@ -210,8 +210,8 @@
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: normal;
-        padding-top: 12px;
-        padding-bottom: 44px;
+        margin-top: 12px;
+        margin-bottom: 44px;
         text-decoration: none;
     }
     .twoLineButton:hover {
@@ -244,8 +244,8 @@
     #myLife {
         width: 80vw;
         margin-left: 10vw;
-        padding-top: 260px;
-        padding-bottom: 24px;
+        margin-top: 260px;
+        margin-bottom: 24px;
     }
     #mountain2 {
         position: fixed;

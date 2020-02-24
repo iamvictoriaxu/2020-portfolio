@@ -159,7 +159,7 @@
         float: right;
         text-align: right;
         margin-bottom: 36px;
-        padding-right: 8px;
+        margin-right: 8px;
     } 
     #emailme {
         margin-top: 60px;
@@ -177,14 +177,14 @@
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
-        padding: 0vw 0vw 0vw 15vw;
-        padding-bottom: 20px;
+        margin: 0vw 0vw 0vw 15vw;
+        margin-bottom: 20px;
         cursor: text;   
     } 
     label a {
         max-width: 500px;
         display: block;
-        padding: 0vw 0vw 0vw 15vw;
+        margin: 0vw 0vw 0vw 15vw;
         border: none;
         cursor: pointer;
         color: #ffffff;
@@ -201,8 +201,8 @@
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: normal;
-        padding-top: 12px;
-        padding-bottom: 44px;
+        margin-top: 12px;
+        margin-bottom: 44px;
         text-decoration: none;
     }
     .twoLineButton:hover {

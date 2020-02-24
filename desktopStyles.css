@@ -165,10 +165,10 @@
         text-align: right;
         margin-top:auto;
         margin-bottom: 0px;
-        padding-right: 8px;
+        margin-right: 8px;
     } 
     #emailme {
-        margin-top: 140px;
+        margin-top: 200px;
     }
 
     /*home page links*/
@@ -182,14 +182,14 @@
         letter-spacing: 1.95px;
         text-align: left;
         margin: auto;
-        padding: 0vw 0vw 0vw 10vw;
-        padding-bottom: 20px;
+        margin: 4vw 0vw 0vw 10vw;
+        margin-bottom: 20px;
         cursor: text;   
     } 
     label a {
         max-width: 500px;
         display: block;
-        padding: 0vw 0vw 0vw 10vw;
+        margin: 0vw 0vw 0vw 10vw;
         border: none;
         cursor: pointer;
         color: #ffffff;
@@ -212,7 +212,6 @@
     }
     .twoLineButton:hover {
         font-weight: 1000;
-        text-decoration-style: dashed;
     }
     
 /************** ABOUT ME **************/
@@ -241,7 +240,7 @@
         width: 50vw;
         margin-left: 10vw;
         padding-top: 230px;
-        padding-bottom: 24px;
+        margin-bottom: 24px;
     }
     #mountain2 {
         position: fixed;
@@ -254,8 +253,8 @@
         position: absolute;
         display: inline-block;
         margin-left: 10%;
-        padding-top: 16px;
-        padding-bottom: 36px;
+        margin-top: 16px;
+        margin-bottom: 36px;
         height: 140px;
         width: 392px;
     }
