@@ -71,7 +71,7 @@
         display:none;
     }
     #pinkRectangleMobile { 
-        max-height:50%;
+        max-height:90%;
         width: 100%;
     }
     .shadows {
@@ -85,48 +85,48 @@
         display: inline-block;
         position: absolute;
         margin-left: 18%;
-        padding-top: 23%;
+        margin-top: 23%;
         z-index: 11;
     }
     #CRshadow {
         margin-left: 19%;
-        padding-top: 28%;
+        margin-top: 28%;
     }
     #MFtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
         margin-left: 6%;
-        padding-top: 50%;
+        margin-top: 50%;
         z-index: 11;
     }
     #MFshadow {
         margin-left: 7%;
-        padding-top: 55%;
+        margin-top: 55%;
     }
     #CHtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
         margin-left: 55%;
-        padding-top: 40%;
+        margin-top: 40%;
         z-index: 11;
     }
     #CHshadow {
         margin-left: 56%;
-        padding-top: 45%;
+        margin-top: 45%;
     }
     #MIPtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
         margin-left: 42%;
-        padding-top: 70%;
+        margin-top: 70%;
         z-index: 11;
     }
     #MIPshadow {
         margin-left: 43%;
-        padding-top: 75%;
+        margin-top: 75%;
     }
     #mywork {
         position: absolute;

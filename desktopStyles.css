@@ -16,7 +16,6 @@
     background-attachment: static;
     margin: 0; 
 }
-
 #CRpage, #CHpage {
     background-color: #4D92AB;
     background-image: url("homeimages/Starsnomoon@4x.png");
@@ -85,48 +84,57 @@
         display: inline-block;
         position: absolute;
         margin-left: 25%;
-        padding-top: 19%;
+        margin-top: 19%;
         z-index: 11;
     }
     #CRshadow {
         margin-left: 26%;
-        padding-top: 22%;
+        margin-top: 22%;
     }
+    #CRtile:hover, #MFtile:hover, #CHtile:hover, #MIPtile:hover {
+        transform: translateY(-20px);
+        transition-duration: 0.3s;
+    }
+    /*#CRshadow:hover {
+        transform: scale(.8);
+        transition-duration: 1s;
+    }*/
+
     #MFtile {
         width: 20vw;
         display: inline-block;
         position: absolute;
         margin-left: 6.2%;
-        padding-top: 27%;
+        margin-top: 27%;
         z-index: 11;
     }
     #MFshadow {
         margin-left: 7.2%;
-        padding-top: 30%;
+        margin-top: 30%;
     }
     #CHtile {
         width: 20vw;
         display: inline-block;
         position: absolute;
         margin-left: 28%;
-        padding-top: 39%;
+        margin-top: 39%;
         z-index: 11;
     }
     #CHshadow {
         margin-left: 29%;
-        padding-top: 42%;
+        margin-top: 42%;
     }
     #MIPtile {
         width: 20vw;
         display: inline-block;
         position: absolute;
         margin-left: 8.5%;
-        padding-top: 48%;
+        margin-top: 48%;
         z-index: 11;
     }
     #MIPshadow {
         margin-left: 9.5%;
-        padding-top: 51%;
+        margin-top: 51%;
     }
     #mywork {
         position: absolute;
