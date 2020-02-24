@@ -600,31 +600,46 @@
         height: 135px;
         width: 364px;
     }
-    #CHsticker{
-        display: none;
-        /*position: relative;
-        width: 30%;
-        display: inline-block;
-        margin-left: 50%;
-        margin-right: 0%;
-        margin-top:-280px;
-        padding-bottom: 60px;*/
-    }
-    #circle1 {
+    #CHmoon1 {
         position: relative;
         width: 12%;
         float: right;
         margin-right: 60px;
-        margin-bottom: 60px;
-        z-index: -1;
+        margin-top: -20px;
+        z-index: -2;
     }
-    #circle2{
+    #CHcloud1 {
+        display:none;
+    }
+    #CHcloud2 {
+        display:none;
+    }
+    #CHcloud3 {
         position: relative;
-        width: 8%;
+        width: 12%;
+        float: left;
+        margin-left: 40px;
+        margin-top: -80px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #CHcloud4 {
+        position: relative;
+        width: 12%;
         float: left;
         margin-left: 80px;
-        margin-bottom: 60px;
+        margin-top: -70px;
         z-index: -1;
+        opacity: 90%;
+    }
+    #CHcloud5 {
+        position: relative;
+        width: 18%;
+        float: right;
+        margin-right: 20px;
+        margin-top: -20px;
+        z-index: -1;
+        opacity: 50%;
     }
     #clientCH {
         margin-left: 22vw;

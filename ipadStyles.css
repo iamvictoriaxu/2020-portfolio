@@ -586,31 +586,52 @@
         height: 135px;
         width: 364px;
     }
-    #circle1 {
+    #CHmoon1 {
         position: relative;
         width: 12%;
         float: right;
-        margin-right: 60px;
-        margin-bottom: 60px;
-        z-index: -1;
+        margin-right: 150px;
+        margin-top: -20px;
+        z-index: -2;
     }
-    #circle2{
+    #CHcloud1 {
         position: relative;
-        width: 8%;
-        float: left;
-        margin-left: 80px;
-        margin-bottom: 60px;
+        width: 18%;
+        float: right;
+        margin-right: -100px;
+        margin-top: 60px;
         z-index: -1;
+        opacity: 50%;
     }
-    #CHsticker{
-        display: none;
-        /*position: relative;
-        width: 30%;
-        display: inline-block;
-        margin-left: 50%;
-        margin-right: 0%;
-        margin-top:-280px;
-        padding-bottom: 60px;*/
+    #CHcloud2 {
+        display:none;
+    }
+    #CHcloud3 {
+        position: relative;
+        width: 12%;
+        float: left;
+        margin-left: 40px;
+        margin-top: -90px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #CHcloud4 {
+        position: relative;
+        width: 12%;
+        float: left;
+        margin-left: 100px;
+        margin-top: -70px;
+        z-index: -1;
+        opacity: 90%;
+    }
+    #CHcloud5 {
+        position: relative;
+        width: 18%;
+        float: right;
+        margin-right: 100px;
+        margin-top: -20px;
+        z-index: -1;
+        opacity: 50%;
     }
     #clientCH {
         margin-left: 22vw;
