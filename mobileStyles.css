@@ -446,6 +446,36 @@
         line-height: 28px;
         width: 80%;
     }
+    /*Moons and clouds*/
+    #CRmoon1 {
+        position: relative;
+        width: 20%;
+        float: right;
+        margin-right: 40px;
+        margin-top: -60px;
+        z-index: -2;        
+    }
+    #CRcloud1 {
+        position: relative;
+        width: 20%;
+        float: right;
+        margin-right: -60px;
+        margin-top: -10px;
+        z-index: -1;
+        opacity: 80%;
+    }
+    #CRcloud3 {
+        display:none;
+    }
+    #CRcloud4{
+        position: relative;
+        width: 25%;
+        float: right;
+        margin-right: 30px;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 50%;
+    }
 /************** MISSING FORWARDER **************/
     #welcomeMF {
         position: absolute;
@@ -571,6 +601,51 @@
         margin-top: -75%;
         display: block;
     }
+    /*Moons and clouds*/
+    #MFcloud1 {
+        position: relative;
+        width: 18%;
+        float: right;
+        margin-right: 60px;
+        margin-top: -0px;
+        z-index: -1;
+        opacity: 60%;
+    }
+    #MFmoon1 {
+        display: none;
+    }
+    #MFcloud2{
+        position: relative;
+        width: 14%;
+        float: left;
+        margin-left: 30px;
+        margin-top: -20px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #MFcloud3{
+        display:none;
+    }
+    #MFcloud4 {
+        position: relative;
+        width: 18%;
+        float: right;
+        margin-right: 60px;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #MFcloud5 {
+        position: relative;
+        width: 22%;
+        float: right;
+        margin-right: 0px;
+        margin-top: 0px;
+        z-index: -1;
+    }
+    #MFcloud6 {
+        display:none
+    }
 /************** CHIPHOUND **************/
     #welcomeCH {
         position: absolute !important;
@@ -602,7 +677,7 @@
     }
     #CHmoon1 {
         position: relative;
-        width: 12%;
+        width: 16%;
         float: right;
         margin-right: 60px;
         margin-top: -20px;
@@ -616,7 +691,7 @@
     }
     #CHcloud3 {
         position: relative;
-        width: 12%;
+        width: 16%;
         float: left;
         margin-left: 40px;
         margin-top: -80px;
@@ -625,7 +700,7 @@
     }
     #CHcloud4 {
         position: relative;
-        width: 12%;
+        width: 16%;
         float: left;
         margin-left: 80px;
         margin-top: -70px;
@@ -634,7 +709,7 @@
     }
     #CHcloud5 {
         position: relative;
-        width: 18%;
+        width: 23%;
         float: right;
         margin-right: 20px;
         margin-top: -20px;
@@ -944,21 +1019,39 @@
         from {opacity: .4}
         to {opacity: 1}
     }
-    #prototypeMIP0 {
-        z-index: 10;
-        width: 90%;
-        position: absolute;
-        margin-left: 4%;
-        margin-top: -130%;
-        display: block;
+    /*Moon and clouds*/
+    #MIPcloud1 {
+        display:none;
     }
-    #prototypeMIP0 {
-        z-index: 10;
-        width: 90%;
-        position: absolute;
-        margin-left: 4%;
-        margin-top: -130%;
-        display: block;
+    #MIPmoon1{
+        position: relative;
+        width: 20%;
+        float: right;
+        margin-right: 40px;
+        margin-top: -140px;
+        z-index: -1;
+        opacity: 90%;
+    }
+    #MIPcloud2 {
+        display:none;
+    }
+    #MIPcloud3 {
+        position: relative;
+        width: 16%;
+        float: right;
+        margin-right: 40px;
+        margin-top: 200px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #MIPcloud4 {
+        position: relative;
+        width: 16%;
+        float: right;
+        margin-right: 120px;
+        margin-top: -140px;
+        z-index: -1;
+        opacity: 80%;
     }
 /* all buttons*/
     #VXU {

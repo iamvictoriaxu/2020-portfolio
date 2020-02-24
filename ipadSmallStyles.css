@@ -437,6 +437,42 @@
         line-height: 28px;
         width: 60%;
     }
+    /*Moons and clouds*/
+    #CRmoon1 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 80px;
+        margin-top: -80px;
+        z-index: -2;        
+    }
+    #CRcloud1 {
+        position: relative;
+        width: 16%;
+        float: right;
+        margin-right: -80px;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 80%;
+    }
+    #CRcloud3 {
+        position: relative;
+        width: 12%;
+        float: left;
+        margin-left: 40px;
+        margin-top: -47px;
+        z-index: -1;
+        opacity: 80%;
+    }
+    #CRcloud4{
+        position: relative;
+        width: 10%;
+        float: right;
+        margin-right: 100px;
+        margin-top: 0px;
+        z-index: -1;
+        opacity: 50%;
+    }
 /************** MISSING FORWARDER **************/
     #skillsMF {
         position: absolute;
@@ -543,6 +579,68 @@
         margin-left: 25%;
         margin-top: -45%;
         display: block;
+    }
+    /*Moons and clouds*/
+    #MFcloud1 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 60px;
+        margin-top: -70px;
+        z-index: -1;
+        opacity: 60%;
+    }
+    #MFmoon1 {
+        position: relative;
+        width: 12%;
+        float: left;
+        margin-left: 100px;
+        margin-top: -215px;
+        z-index: -1;
+    }
+    #MFcloud2{
+        position: relative;
+        width: 12%;
+        float: left;
+        margin-left: 40px;
+        margin-top: -200px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #MFcloud3{
+        position: relative;
+        width: 20%;
+        float: left;
+        margin-left: 100px;
+        margin-top: -120px;
+        z-index: -1;
+        opacity: 90%;
+    }
+    #MFcloud4 {
+        position: relative;
+        width: 16%;
+        float: right;
+        margin-right: 60px;
+        margin-top: 160px;
+        z-index: -1;
+        opacity: 50%;
+    }
+    #MFcloud5 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 0px;
+        margin-top: 300px;
+        z-index: -1;
+    }
+    #MFcloud6 {
+        position: relative;
+        width: 10%;
+        float: right;
+        margin-right: 120px;
+        margin-top: -80px;
+        z-index: -1;
+        opacity: 50%;
     }
 /************** CHIPHOUND **************/
     #welcomeCH {
@@ -927,21 +1025,50 @@
         from {opacity: .4}
         to {opacity: 1}
     }
-    #prototypeMIP0 {
-        z-index: 10;
-        width: 90%;
-        position: absolute;
-        margin-left: 4%;
-        margin-top: -130%;
-        display: block;
+    /*Moon and clouds*/
+    #MIPcloud1 {
+        position: relative;
+        width: 10%;
+        float: right;
+        margin-right: 100px;
+        margin-top: 80px;
+        z-index: -1;
+        opacity: 50%;
     }
-    #prototypeMIP0 {
-        z-index: 10;
-        width: 90%;
-        position: absolute;
-        margin-left: 4%;
-        margin-top: -130%;
-        display: block;
+    #MIPmoon1{
+        position: relative;
+        width: 10%;
+        float: right;
+        margin-right: 80px;
+        margin-top: -100px;
+        z-index: -1;
+        opacity: 90%;
+    }
+    #MIPcloud2 {
+        position: relative;
+        width: 12%;
+        float: left;
+        margin-left: 100px;
+        margin-top: -100px;
+        z-index: -1;
+        opacity: 80%;
+    }
+    #MIPcloud3 {
+        position: relative;
+        width: 8%;
+        float: left;
+        margin-left: 180px;
+        margin-top: -80px;
+        z-index: -1;
+    }
+    #MIPcloud4 {
+        position: relative;
+        width: 12%;
+        float: right;
+        margin-right: 140px;
+        margin-top: -120px;
+        z-index: -1;
+        opacity: 80%;
     }
 /* all buttons*/
     #VXU {
