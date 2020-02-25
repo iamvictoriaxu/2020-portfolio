@@ -427,8 +427,8 @@
     #reflection {
         position: relative;
         margin-left: 22vw;
-        padding-top: 100px;
-        padding-bottom: 0px;
+        margin-top: 100px;
+        margin-bottom: 0px;
         font-size: 30px;
         font-weight: normal;
         height: 40px;
@@ -438,8 +438,8 @@
     }
     #reflectionDescription {
         margin-left: 22vw;
-        padding-top: 12px;
-        padding-bottom: 0px;
+        margin-top: 12px;
+        margin-bottom: 0px;
         font-size: 16px;
         font-weight: normal;
         height: 180px;
@@ -793,6 +793,29 @@
         padding-top: 56px !important;
         height: 160px;
     }
+    #CHreflection {
+        position: relative;
+        margin-left: 22vw;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #CHreflectionDescription {
+        margin-left: 22vw;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
 /************** MIP **************/
     #introdescriptionMIP {
         width: 30vw;
@@ -1087,10 +1110,10 @@
         border: 2px solid white;
         border-radius: 50px;
     }
-    .tabButton:active {
+    .tabButton:focus {
         background-color: white; 
         fill-opacity: 30%;
-        border: 2px solid white;
+        border: 0px solid white;
         border-radius: 50px;
     }
     #nextPage {
