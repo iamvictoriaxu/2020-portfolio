@@ -257,6 +257,23 @@
     #skillsAboutMe {
         height: 160px !important;
     }
+    #AMemailme{
+        float: left;
+        text-align: left;
+        margin-top: 240px;
+        margin-bottom: 0px;
+        z-index: 10;
+        text-decoration: none;
+    }
+    #AMlinkedin {
+        float: left;
+        text-align: left;
+        margin-top: 240px;
+        margin-bottom: 0px;
+        margin-left:10%;
+        z-index: 10;
+        text-decoration: none;
+    }
     #me {
         position: relative;
         width: 22%;

@@ -157,18 +157,17 @@
         color: #ffffff;
         font-family:'PT Sans Narrow', sans-serif;
         font-weight: normal;
-        height: 24px;
         font-size: 18px;
         letter-spacing: 2px;
         display: block;
         float: right;
         text-align: right;
-        margin-top:auto;
-        margin-bottom: 0px;
+        margin-top:100px;
+        margin-bottom: 36px;
         margin-right: 8px;
     } 
     #emailme {
-        margin-top: 200px;
+        margin-top: 60px;
     }
 
     /*home page links*/
@@ -248,6 +247,7 @@
         width: 50vw;
         right: 0px;
         bottom: 0px;
+        z-index: -1;
     }
     .skills {
         position: absolute;
@@ -261,11 +261,28 @@
     #skillsAboutMe {
         height: 160px !important;
     }
+    #AMemailme{
+        float: left;
+        text-align: left;
+        margin-top: 240px;
+        margin-bottom: 0px;
+        z-index: 10;
+        text-decoration: none;
+    }
+    #AMlinkedin {
+        float: left;
+        text-align: left;
+        margin-top: 240px;
+        margin-bottom: 0px;
+        margin-left:10%;
+        z-index: 10;
+        text-decoration: none;
+    }
     #me {
         position: relative;
         width: 22%;
         display: inline-block;
-        left: 65%;
+        left: 40%;
         bottom: 15vw;
     }
     #meMobile {
@@ -584,7 +601,7 @@
     }
     #MFcloud2{
         position: relative;
-        width: 10%;
+        width: 8%;
         float: left;
         margin-left: 80px;
         margin-top: -340px;
@@ -593,7 +610,7 @@
     }
     #MFcloud3{
         position: relative;
-        width: 12%;
+        width: 10%;
         float: left;
         margin-left: 180px;
         margin-top: -250px;
@@ -611,7 +628,7 @@
     }
     #MFcloud5 {
         position: relative;
-        width: 10%;
+        width: 8%;
         float: right;
         margin-right: 100px;
         margin-top: 500px;
@@ -1002,7 +1019,7 @@
     }
     #MIPcloud2 {
         position: relative;
-        width: 10%;
+        width: 8%;
         float: left;
         margin-left: 100px;
         margin-top: -160px;
@@ -1020,7 +1037,7 @@
     }
     #MIPcloud4 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: right;
         margin-right: -20px;
         margin-top: -120px;
