@@ -690,15 +690,7 @@
         z-index: -1;
         opacity: 90%;
     }
-    #CHcloud5 {
-        position: relative;
-        width: 10%;
-        float: right;
-        margin-right: 100px;
-        margin-top: -20px;
-        z-index: -1;
-        opacity: 50%;
-    }
+    
     #solution1CH {
         margin-left: 22vw;
         padding-top: 115px;

@@ -707,41 +707,23 @@
     }
     #CHcloud3 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: left;
-        margin-left: 40px;
-        margin-top: -90px;
+        margin-left: 60px;
+        margin-top: -100px;
         z-index: -1;
         opacity: 50%;
     }
     #CHcloud4 {
         position: relative;
-        width: 12%;
-        float: left;
-        margin-left: 100px;
-        margin-top: -70px;
+        width: 8%;
+        float: right;
+        margin-right: 100px;
+        margin-top: -10px;
         z-index: -1;
         opacity: 90%;
     }
-    #CHcloud5 {
-        position: relative;
-        width: 18%;
-        float: right;
-        margin-right: 100px;
-        margin-top: -20px;
-        z-index: -1;
-        opacity: 50%;
-    }
-    #CHsticker{
-        display: none;
-        /*position: relative;
-        width: 30%;
-        display: inline-block;
-        margin-left: 50%;
-        margin-right: 0%;
-        margin-top:-280px;
-        padding-bottom: 60px;*/
-    }
+    
     #clientCH {
         margin-left: 22vw;
         padding-top: 50px;
