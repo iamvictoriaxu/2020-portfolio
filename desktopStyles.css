@@ -379,7 +379,7 @@
     #solution1 {
         margin-left: 22vw;
         padding-top: 115px;
-        padding-bottom: 24px;
+        padding-bottom: 40px;
         font-size: 16px;
         font-weight: normal;
         height: 80px;
@@ -387,20 +387,99 @@
         line-height: 28px;
         width: 840px;
     }
+    
     #CRS1 {
         position: relative;
         width: 65%;
         display: inline-block;
         margin-left: 20%;
         padding-bottom: 60px;
+    } 
+        /* Style the Image Used to Trigger the Modal */
+    /*#CRS1 {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-left: 22vw;
     }
+    #CRS1:hover {opacity: 0.7;}
+    
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    }
+    
+    /* Modal Content (Image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 90%;
+        max-width: 880px;
+    }
+    
+    /* Caption of Modal Image (Image Text) - Same Width as the Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+    
+    /* Add Animation - Zoom in the Modal */
+    .modal-content, #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+    @keyframes zoom {
+        from {transform:scale(0)}
+        to {transform:scale(1)}
+    }
+    
+    /* The Close Button */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    /* 100% Image Width on Smaller Screens */
+    @media only screen and (max-width: 700px){
+        .modal-content {
+        width: 100%;
+        }
+    }*/
     #subheading {
         padding-top: 90px !important;
         margin-left: 22vw;
     }
     #solution2 {
         margin-left: 22vw;
-        padding-top: 140px;
+        padding-top: 60px;
         padding-bottom: 140px;
         font-size: 16px;
         font-weight: normal;
@@ -414,11 +493,11 @@
         width: 60%;
         display: inline-block;
         margin-left: 21%;
-        padding-bottom: 40px;
+        margin-bottom: 80px;
     }
     #solution3 {
         margin-left: 22vw;
-        padding-top: 140px;
+        padding-top: 50px;
         padding-bottom: 40px;
         font-size: 16px;
         font-weight: normal;
@@ -795,7 +874,7 @@
     }
     #solution2CH {
         margin-left: 22vw;
-        padding-top: 140px;
+        padding-top: 50px;
         padding-bottom: 24px;
         font-size: 16px;
         font-weight: normal;
@@ -810,11 +889,11 @@
         display: inline-block;
         margin-left: 22%;
         margin-right: 0%;
-        padding-bottom: 60px;
+        margin-bottom: 80px;
     }
     #solution3CH {
         margin-left: 22vw;
-        padding-top: 140px;
+        padding-top: 50px;
         padding-bottom: 40px;
         font-size: 16px;
         font-weight: normal;
@@ -906,8 +985,19 @@
         width: 392px;
     }
     #MIPgoalTitle{
-        margin-top: 250px;
+        margin-top: 130px;
         padding-bottom: 24px;
+    }
+    #goalMIP {
+        margin-left: 22vw;
+        margin-top: 180px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
     }
     #clientMIP {
         margin-left: 22vw;
@@ -926,7 +1016,7 @@
     }
     #problemMIP {
         margin-left: 16vw;
-        padding-top: 90px;
+        padding-top: 56px;
         padding-bottom: 24px;
         font-size: 16px;
         font-weight: normal;
@@ -955,7 +1045,7 @@
     }
     #MIPsolution2 {
         margin-left: 57vw;
-        padding-top: 160px;
+        margin-top: 170px;
         padding-bottom: 24px;
         font-size: 16px;
         font-weight: normal;
@@ -971,11 +1061,11 @@
         margin-left: 15vw;
         margin-right: 0%;
         margin-top:-350px;
-        padding-bottom: 20px;
+        margin-bottom: 80px;
     }
     #MIPsolution3 {
         margin-left: 22vw;
-        padding-top: 140px;
+        margin-top: 70px;
         padding-bottom: 40px;
         font-size: 16px;
         font-weight: normal;
@@ -989,7 +1079,7 @@
         width: 70%;
         display: inline-block;
         margin-left: 16%;
-        padding-bottom: 40px;
+        margin-bottom: 80px;
     }
     #blackBackgroundMIP {
         position: relative;
@@ -1023,7 +1113,8 @@
         top: 50%;
         width: auto;
         margin-top: -22px;
-        padding: 16px;
+        padding: 0px;
+        margin:24px;
         color: white;
         font-weight: bold;
         font-size: 18px;
