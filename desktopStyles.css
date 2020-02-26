@@ -334,6 +334,8 @@
         display: inline-block;
         text-align: left;
         margin-left: 22vw;
+        margin-right: 22vw;
+        max-width:840px;
         position: absolute;
     }
     #CRgoalTitle {
@@ -795,8 +797,9 @@
         top: 10vw !important;
     }
     #introdescriptionCH {
-        width: 30vw;
-        margin-left: 10vw;
+        margin-left: 22vw;
+        margin-right: 22vw;
+        max-width:840px;
         padding-top: 230px;
         padding-bottom: 24px;
         font-size: 16px;
@@ -902,10 +905,17 @@
         display: inline-block;
         margin-left: 22%;
         margin-right: 22%;
+        margin-top:2%;
         padding-bottom: 60px;
     }
     #CHS2 { 
         position: relative;
+        width: 52%;
+        display: inline-block;
+        margin: 2% 24% 4% 24%;
+        padding-bottom: 60px;
+    }
+    #CHS3 { 
         width: 56%;
         display: inline-block;
         margin-left: 22%;
@@ -958,7 +968,7 @@
     #CHreflection {
         position: relative;
         margin-left: 22vw;
-        margin-top: 40px;
+        margin-top: 80px;
         margin-bottom: 0px;
         font-size: 30px;
         font-weight: normal;
