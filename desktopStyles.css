@@ -394,9 +394,10 @@
     
     #CRS1 {
         position: relative;
-        width: 65%;
+        width: 56%;
         display: inline-block;
-        margin-left: 20%;
+        margin-left: 22%;
+        margin-right: 22%;
         padding-bottom: 60px;
     } 
         /* Style the Image Used to Trigger the Modal */
@@ -496,9 +497,10 @@
     }
     #CRS2 {
         position: relative;
-        width: 60%;
+        width: 56%;
         display: inline-block;
-        margin-left: 21%;
+        margin-left: 22%;
+        margin-right: 22%;
         margin-bottom: 80px;
     }
     #solution3 {
@@ -519,15 +521,17 @@
         height: 20%;
         display: inline-block;
         margin: auto;
-        padding-bottom: 60px;
+        margin-bottom: 60px;
         z-index: 1;
     }
     #prototypeCR {
         z-index: 10;
         position: absolute;
-        margin-left: 20%;
+        margin-left: 22%;
+        margin-right: 22%;
         margin-top:-50%;
         display: block;
+        width:56%;
     }
     #CRreflectionTitle {
         position: relative;
