@@ -342,6 +342,7 @@
     }
     #goalCR {
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 300px;
         padding-bottom: 24px;
         font-size: 16px;
@@ -349,13 +350,14 @@
         height: 150px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     #step2 , #step3 , #step4 {
         padding-top: 0px !important;
     }
     #client {
         margin-left: 22vw;
+        margin-right: 22vw;
         padding-top: 50px;
         padding-bottom: 24px;
         font-size: 16px;
@@ -363,10 +365,11 @@
         height: 180px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     #problem {
         margin-left: 22vw;
+        margin-right: 22vw;
         padding-top: 50px;
         padding-bottom: 24px;
         font-size: 16px;
@@ -374,10 +377,11 @@
         height: 240px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     #solution1 {
         margin-left: 22vw;
+        margin-right: 22vw;
         padding-top: 115px;
         padding-bottom: 40px;
         font-size: 16px;
@@ -385,7 +389,7 @@
         height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     
     #CRS1 {
@@ -467,18 +471,20 @@
         cursor: pointer;
     }
     
-    /* 100% Image Width on Smaller Screens */
+    /* 100% Image Width on Smaller Screens 
     @media only screen and (max-width: 700px){
         .modal-content {
         width: 100%;
         }
-    }*/
+    } */
     #subheading {
-        padding-top: 90px !important;
+/*        padding-top: 90px !important;*/
         margin-left: 22vw;
+        margin-right: 22vw;
     }
     #solution2 {
         margin-left: 22vw;
+        margin-right: 22vw;
         padding-top: 60px;
         padding-bottom: 140px;
         font-size: 16px;
@@ -486,7 +492,7 @@
         height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     #CRS2 {
         position: relative;
@@ -497,6 +503,7 @@
     }
     #solution3 {
         margin-left: 22vw;
+        margin-right: 22vw;
         padding-top: 50px;
         padding-bottom: 40px;
         font-size: 16px;
@@ -504,7 +511,7 @@
         height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     #blackBackground {
         position: relative;
@@ -525,6 +532,7 @@
     #CRreflectionTitle {
         position: relative;
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 0px;
         margin-bottom: 0px;
         font-size: 30px;
@@ -532,10 +540,11 @@
         height: 40px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     #CRreflectionDescription {
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 12px;
         margin-bottom: 0px;
         font-size: 16px;
@@ -543,7 +552,7 @@
         height: 180px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 840px;
+        max-width: 840px;
     }
     /*Moons and clouds*/
     #CRmoon1 {
@@ -883,13 +892,21 @@
         line-height: 28px;
         width: 840px;
     }
-    #CHS2 { 
+    #CHS1 {
         position: relative;
-        width: 55%;
+        width: 56%;
         display: inline-block;
         margin-left: 22%;
-        margin-right: 0%;
-        margin-bottom: 80px;
+        margin-right: 22%;
+        padding-bottom: 60px;
+    }
+    #CHS2 { 
+        position: relative;
+        width: 56%;
+        display: inline-block;
+        margin-left: 22%;
+        margin-right: 22%;
+        padding-bottom: 60px;
     }
     #solution3CH {
         margin-left: 22vw;
@@ -904,10 +921,11 @@
     }
     #whiteBackground {
         position: relative;
-        width: 58%;
+        width: 56%;
         height: 40vw;
         display: inline-block;
         margin-left: 22%;
+        margin-right: 22%;
         margin-bottom: 120px;
         padding-bottom: 40px;
         z-index: 1;
@@ -916,8 +934,9 @@
         z-index: 10;
         position: relative;
         margin-left: 43%;
+        margin-right: 43%;
         margin-top:-49%;
-        padding-bottom: 60px;
+        margin-bottom: 80px;
         height: 10%;
         width: 15%;
         display: block;
