@@ -71,100 +71,109 @@
         display:none;
     }
     #pinkRectangleMobile { 
-        height: 220vw;
+        height: 160vw;
         width: 100%;
     }
+    
     .shadows {
-        width: 40%;
+        width: 40vw;
         display: block;
-        position: absolute;
+        position: relative;
         z-index: 10;
     }
     #CRtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
-        margin-left: 18%;
-        margin-top: 28%;
-        z-index: 11;
+        margin-right: 0vw;
+        margin-top: -40vw;
+        z-index: 2;    
     }
     #CRshadow {
-        margin-left: 19%;
-        margin-top: 33%;
+        margin-left: 1vw;
+        margin-top:-36vw;
+        z-index: -1; 
     }
+
     #MFtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
-        margin-left: 6%;
-        margin-top: 55%;
-        z-index: 11;
+        margin-left: 40vw;
+        margin-top: -18vw;
+        z-index: 2; 
     }
     #MFshadow {
-        margin-left: 7%;
-        margin-top: 60%;
+        margin-left: 41vw;
+        margin-top:-22vw;
+        z-index: -1; 
     }
+    
     #CHtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
-        margin-left: 55%;
-        margin-top: 45%;
-        z-index: 11;
+        margin-left: 160vw;
+        margin-top: -20vw;
+        z-index: 2; 
     }
     #CHshadow {
-        margin-left: 56%;
-        margin-top: 50%;
+        margin-left: 161vw;
+        margin-top: -32vw;
+        z-index: -1;
     }
     #MIPtile {
         width: 40vw;
         display: inline-block;
         position: absolute;
-        margin-left: 42%;
-        margin-top: 75%;
-        z-index: 11;
+        margin-right: 0vw;
+        margin-top: -20vw;
+        z-index: 2;     
     }
     #MIPshadow {
-        margin-left: 43%;
-        margin-top: 80%;
+        margin-left: 1vw;
+        margin-top: -14vw;
+        z-index: -1;
     }
-    #mywork {
-        position: absolute;
-        top: 70px;
-        right: 30px;
+    .main {
+        position:absolute;
+        top: 0px;
+        width:98vw;
+        margin: 22vw 1vw 0vw 1vw;
     } 
+    /*MY WORK title*/
     h1 {
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 24px;
         letter-spacing: 2px;
-        height: 100px;
-        width: 350px;
-        float: right;
-        text-align: right;
+        height: 90px;
+        width: 320px;
+        float: left;
+        text-align: left;
         margin: auto;
+        margin-left:5vw;
     } 
+
+    /*CONTACT ME*/
     h2 {
         color: #ffffff;
         font-family:'PT Sans Narrow', sans-serif;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         letter-spacing: 2px;
         display: block;
-        float: right;
+        float: left;
         text-align: right;
-        margin-bottom: 20px;
-        margin-top: 80px;
-        margin-right: 0px;
+        margin-top:80px;
+        bottom:0px;
+        left:0px;
     } 
-    #emailme {
-        margin-top: 0px;
-    }
 
     /*home page links*/
-    #pastwork {
-        max-width: 280px;
+    #pastwork, #tobesoon {
+        max-width: 350px;
         display: block;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
@@ -172,30 +181,14 @@
         font-size: 16px;
         letter-spacing: 1.95px;
         text-align: left;
-        margin: auto;
-        margin-top:100vw;
-        margin-left: 48px;
-        margin-bottom: 28px;
+        margin: 0vw 0vw 0vw 5vw;
+        margin-bottom: 20px;
         cursor: text;   
     } 
-    #tobesoon {
-        max-width: 280px;
+    a {
+        max-width: 350px;
         display: block;
-        color: #ffffff;
-        font-family: 'PT Sans Narrow', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        letter-spacing: 1.95px;
-        text-align: left;
-        margin-top: 22vw;
-        margin-left: 48px;
-        margin-bottom: 28px;
-        cursor: text;   
-    } 
-    label a {
-        max-width: 280px;
-        display: block;
-        margin-left: 48px;
+        margin: 0vw 0vw 0vw 5vw;
         border: none;
         cursor: pointer;
         color: #ffffff;
@@ -206,20 +199,31 @@
         text-decoration: none;
     }
     /*line2*/
-    label span{
-        max-width: 280px;
+    span{
         display: block;
         font-size: 14px;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
         font-weight: normal;
-        margin-top: 12px;
-        margin-bottom: 44px;
+        padding-top: 12px;
+        padding-bottom: 44px;
         text-decoration: none;
     }
+    #mountainContainer{
+        float:left;
+    }
+    /**Animate tiles and titles*/
     .twoLineButton:hover {
         font-weight: 1000;
-        text-decoration-style: dashed;
+    }
+    .project {
+        float:right;
+        top:0px;
+        position:relative;
+    }
+    .twoLineButton:hover + .project{
+        transform: translateY(-20px);
+        transition-duration: 0.3s;
     }
     
 /************** ABOUT ME **************/
@@ -335,13 +339,15 @@
         text-align: left;
         margin-left: 10%;
         position: absolute;
-        padding-top: 200px;
-        padding-bottom: 24px;
         width: 300px;
+    }
+    #CRgoalTitle {
+        margin-top: 240px;
+        padding-bottom: 24px;
     }
     #goalCR {
         margin-left: 10%;
-        padding-top: 250px;
+        padding-top: 290px;
         padding-bottom: 32px;
         font-size: 14px;
         font-weight: normal;
@@ -821,7 +827,7 @@
     #CHreflection {
         position: relative;
         margin-left: 10vw;
-        margin-top: -60%;
+        margin-top: 20%;
         margin-bottom: 20%;
         font-size: 28px;
         font-weight: normal;
@@ -1095,8 +1101,8 @@
         cursor: pointer;
         text-decoration: none;
         text-align: left;
-        padding-left: 24px;
-        padding-top: 24px;
+        margin-left: 30px;
+        margin-top: 24px;
         transition-duration: 0.4s;
     }
     .tabButton {

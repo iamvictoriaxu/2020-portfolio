@@ -14,7 +14,7 @@
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: static;
-    margin: 0; 
+    margin: 0px; 
 }
 #CRpage, #CHpage {
     background-color: #4D92AB;
@@ -68,30 +68,31 @@
         display: none;
     }
     #pinkRectangle {
-        display:none;
+        display: none;
     }
     #pinkRectangleMobile {
         display:none;
     }
     .shadows {
-        width: 20%;
+        width: 20vw;
         display: block;
-        position: absolute;
+        position: relative;
         z-index: 10;
     }
     #CRtile {
         width: 20vw;
         display: inline-block;
-        position: absolute;
-        margin-left: 25%;
-        margin-top: 19%;
-        z-index: 11;
+        position: relative;
+        margin-right: 0vw;
+        margin-top: -20vw;
+        z-index: 2;    
     }
     #CRshadow {
-        margin-left: 26%;
-        margin-top: 22%;
+        margin-left: 1vw;
+        margin-top:-14vw;
+        z-index: -1; 
     }
-    #CRtile:hover, #MFtile:hover, #CHtile:hover, #MIPtile:hover {
+    /**#CRtile:hover, #MFtile:hover, #CHtile:hover, #MIPtile:hover {
         transform: translateY(-20px);
         transition-duration: 0.3s;
     }
@@ -103,56 +104,72 @@
     #MFtile {
         width: 20vw;
         display: inline-block;
-        position: absolute;
-        margin-left: 6.2%;
-        margin-top: 27%;
-        z-index: 11;
+        position: relative;
+        margin-right: 20vw;
+        margin-top: -14vw;
+        z-index: 2; 
     }
     #MFshadow {
-        margin-left: 7.2%;
-        margin-top: 30%;
+        margin-left: 1vw;
+        margin-top:-14vw;
+        z-index: -1; 
     }
+    /*#CHtile {
+        width: 20vw;
+        display: inline-block;
+        position: relative;
+        margin-left: 100vw;
+        margin-top: -8vw;
+        z-index: 2; 
+    }*/
     #CHtile {
         width: 20vw;
         display: inline-block;
-        position: absolute;
-        margin-left: 28%;
-        margin-top: 39%;
-        z-index: 11;
+        position: relative;
+        margin-left: 160vw;
+        margin-top: -12vw;
+        z-index: 2; 
     }
     #CHshadow {
-        margin-left: 29%;
-        margin-top: 42%;
+        margin-left: 161vw;
+        margin-top: -14vw;
+        z-index: -1;
     }
     #MIPtile {
         width: 20vw;
         display: inline-block;
-        position: absolute;
-        margin-left: 8.5%;
-        margin-top: 48%;
-        z-index: 11;
+        position: relative;
+        margin-right: 14vw;
+        margin-top: -20vw;
+        z-index: 2; 
     }
     #MIPshadow {
-        margin-left: 9.5%;
-        margin-top: 51%;
+        margin-left: 1vw;
+        margin-top: -14vw;
+        z-index: -1;
     }
-    #mywork {
-        position: absolute;
-        top: 220px;
-        right: 100px;
+    .main {
+        position:absolute;
+        top: 0px;
+        width:82vw;
+        margin: 20vw 2vw 0vw 2vw;
     } 
+    /*MY WORK title*/
     h1 {
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
         font-size: 32px;
         letter-spacing: 2px;
-        height: 100px;
-        width: 650px;
-        float: right;
-        text-align: right;
+        height: 90px;
+        width: 400px;
+        float: left;
+        text-align: left;
         margin: auto;
+        margin-left:10vw;
     } 
+
+    /*CONTACT ME*/
     h2 {
         color: #ffffff;
         font-family:'PT Sans Narrow', sans-serif;
@@ -160,19 +177,16 @@
         font-size: 18px;
         letter-spacing: 2px;
         display: block;
-        float: right;
+        float: left;
         text-align: right;
-        margin-top:100px;
-        margin-bottom: 36px;
-        margin-right: 8px;
+        margin-top:80px;
+        bottom:0px;
+        left:0px;
     } 
-    #emailme {
-        margin-top: 60px;
-    }
 
     /*home page links*/
     #pastwork, #tobesoon {
-        max-width: 500px;
+        max-width: 400px;
         display: block;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
@@ -180,13 +194,12 @@
         font-size: 20px;
         letter-spacing: 1.95px;
         text-align: left;
-        margin: auto;
-        margin: 4vw 0vw 0vw 10vw;
+        margin: 0vw 0vw 0vw 10vw;
         margin-bottom: 20px;
         cursor: text;   
     } 
-    label a {
-        max-width: 500px;
+    a {
+        max-width: 380px;
         display: block;
         margin: 0vw 0vw 0vw 10vw;
         border: none;
@@ -199,7 +212,7 @@
         text-decoration: none;
     }
     /*line2*/
-    label span{
+    span{
         display: block;
         font-size: 16px;
         color: #ffffff;
@@ -209,8 +222,21 @@
         padding-bottom: 44px;
         text-decoration: none;
     }
+    #mountainContainer{
+        float:left;
+    }
+    /**Animate tiles and titles*/
     .twoLineButton:hover {
         font-weight: 1000;
+    }
+    .project {
+        float:right;
+        top:0px;
+        position:relative;
+    }
+    .twoLineButton:hover + .project{
+        transform: translateY(-20px);
+        transition-duration: 0.3s;
     }
     
 /************** ABOUT ME **************/
@@ -239,7 +265,7 @@
         width: 50vw;
         margin-left: 10vw;
         padding-top: 230px;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
     }
     #mountain2 {
         position: fixed;
@@ -253,37 +279,23 @@
         position: absolute;
         display: inline-block;
         margin-left: 10%;
-        margin-top: 16px;
-        margin-bottom: 36px;
-        height: 140px;
-        width: 392px;
+        margin-bottom: 30px;
+        padding-right:100px;
+        margin-right: 36px;
+        
     }
     #skillsAboutMe {
         height: 160px !important;
-    }
-    #AMemailme{
-        float: left;
-        text-align: left;
-        margin-top: 240px;
-        margin-bottom: 0px;
-        z-index: 10;
-        text-decoration: none;
-    }
-    #AMlinkedin {
-        float: left;
-        text-align: left;
-        margin-top: 240px;
-        margin-bottom: 0px;
-        margin-left:10%;
-        z-index: 10;
-        text-decoration: none;
+        width: 392px;
+        margin-top: 0px;
     }
     #me {
         position: relative;
         width: 22%;
         display: inline-block;
-        left: 40%;
-        bottom: 15vw;
+        float: right;
+        margin-right: 10vw;
+        margin-top: -20%;
     }
     #meMobile {
         display:none;
@@ -308,6 +320,11 @@
         left: 50%;
         top: 10vw
     }
+    #skillsCR {
+        height: 140px !important;
+        width: 392px;
+        margin-top: 0px;
+    }
     .stepTitle {
         color: #ffffff;
         font-family:'Oranienbaum', serif;
@@ -318,12 +335,14 @@
         text-align: left;
         margin-left: 22vw;
         position: absolute;
-        padding-top: 350px;
+    }
+    #CRgoalTitle {
+        margin-top: 250px;
         padding-bottom: 24px;
     }
     #goalCR {
         margin-left: 22vw;
-        padding-top: 400px;
+        margin-top: 300px;
         padding-bottom: 24px;
         font-size: 16px;
         font-weight: normal;
@@ -424,10 +443,10 @@
         margin-top:-50%;
         display: block;
     }
-    #reflection {
+    #CRreflectionTitle {
         position: relative;
         margin-left: 22vw;
-        margin-top: 100px;
+        margin-top: 0px;
         margin-bottom: 0px;
         font-size: 30px;
         font-weight: normal;
@@ -436,7 +455,7 @@
         line-height: 28px;
         width: 840px;
     }
-    #reflectionDescription {
+    #CRreflectionDescription {
         margin-left: 22vw;
         margin-top: 12px;
         margin-bottom: 0px;
@@ -484,6 +503,15 @@
         opacity: 50%;
     }
 /************** MISSING FORWARDER **************/
+    #MFgoalTitle {
+        margin-top: 250px;
+        padding-bottom: 24px;
+    }
+    #skillsMF {
+    height: 140px !important;
+    width: 392px;
+    margin-top: 0px;
+    }
     #step3MF {
         margin-left: 22vw !important;
         padding-top: 0px !important;
@@ -581,6 +609,29 @@
         margin-top: -580px;
         display: block;
     }
+    #MFreflectionTitle {
+        position: relative;
+        margin-left: 22vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #MFreflectionDescription {
+        margin-left: 22vw;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
     /*Moons and clouds*/
     #MFcloud1 {
         position: relative;
@@ -662,6 +713,15 @@
         letter-spacing: 1.2px;
         line-height: 28px;
         width: 418px;
+    }
+    #skillsCH {
+        height: 140px !important;
+        width: 392px;
+        margin-top: 0px;
+    }
+    #CHgoalTitle {
+        margin-top: 250px;
+        padding-bottom: 24px;
     }
     #CHmoon1 {
         position: relative;
@@ -796,7 +856,7 @@
     #CHreflection {
         position: relative;
         margin-left: 22vw;
-        margin-top: 100px;
+        margin-top: 40px;
         margin-bottom: 0px;
         font-size: 30px;
         font-weight: normal;
@@ -817,6 +877,13 @@
         width: 840px;
     }
 /************** MIP **************/
+    #welcomeMIP {
+        position: absolute;
+        width: 40%;
+        display: inline-block;
+        left: 50%;
+        top: 10vw
+    }
     #introdescriptionMIP {
         width: 30vw;
         margin-left: 10vw;
@@ -824,19 +891,23 @@
         padding-bottom: 24px;
         font-size: 16px;
         font-weight: normal;
-        height: 150px;
+        height: 100px;
         letter-spacing: 1.2px;
         line-height: 28px;
         width: 418px;
     }
     #MIPskills {
-        position: absolute;
+        position: relative;
         display: inline-block;
         margin-left: 10%;
-        padding-top: 16px;
-        padding-bottom: 36px;
+        margin-top: 10px;
+        margin-bottom: 0px;
         height: 194px;
         width: 392px;
+    }
+    #MIPgoalTitle{
+        margin-top: 250px;
+        padding-bottom: 24px;
     }
     #clientMIP {
         margin-left: 22vw;
@@ -930,6 +1001,7 @@
         padding-bottom: 40px;
         z-index: 1;
     }
+
     /* Slideshow container */
     .slideshow-container {
         max-width: 1000px;
@@ -1067,6 +1139,29 @@
         z-index: -1;
         opacity: 80%;
     }
+    #MIPreflectionTitle {
+        position: relative;
+        margin-left: 22vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
+    #MIPreflectionDescription {
+        margin-left: 22vw;
+        margin-top: 48px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+        width: 840px;
+    }
 
 
 /* all buttons*/
@@ -1083,8 +1178,8 @@
         cursor: pointer;
         text-decoration: none;
         text-align: left;
-        padding-left: 30px;
-        padding-top: 24px;
+        margin-left: 30px;
+        margin-top: 24px;
         transition-duration: 0.4s;
     }
     .tabButton {
@@ -1110,12 +1205,6 @@
         border: 2px solid white;
         border-radius: 50px;
     }
-    .tabButton:focus {
-        background-color: white; 
-        fill-opacity: 30%;
-        border: 0px solid white;
-        border-radius: 50px;
-    }
     #nextPage {
         background-color: Transparent;
         color: #ffffff;
@@ -1128,9 +1217,7 @@
         float: right;
         text-decoration: none;
         text-align: right;
-        margin-top: 120px;
-        margin-bottom: 0px;
-        padding: 0px 40px 60px 40px;
+        margin: 120px 40px 40px 0px;
         transition-duration: 0.4s;
     }
     #previousPage {
@@ -1145,9 +1232,7 @@
         float: left;
         text-decoration: none;
         text-align: left;
-        margin-top: 120px;
-        margin-bottom: 0px;
-        padding: 0px 40px 60px 40px;
+        margin: 120px 0px 40px 40px;
         transition-duration: 0.4s;
     }
     #nextPage:hover , #previousPage:hover {
@@ -1156,3 +1241,6 @@
         font-weight: 700;
     }
 }
+
+
+
