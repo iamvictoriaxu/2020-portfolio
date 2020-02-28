@@ -663,6 +663,7 @@
     #MFreflectionTitle {
         position: relative;
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 0px;
         margin-bottom: 0px;
         font-size: 30px;
@@ -674,6 +675,7 @@
     }
     #MFreflectionDescription {
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 12px;
         margin-bottom: 0px;
         font-size: 16px;
@@ -915,6 +917,7 @@
     #CHreflection {
         position: relative;
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 80px;
         margin-bottom: 0px;
         font-size: 30px;
@@ -926,6 +929,7 @@
     }
     #CHreflectionDescription {
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 4px;
         margin-bottom: 0px;
         font-size: 16px;
@@ -1091,6 +1095,7 @@
     }
     #MIPsolution3 {
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 84px;
         padding-bottom: 40px;
         font-size: 16px;
@@ -1259,6 +1264,7 @@
     #MIPreflectionTitle {
         position: relative;
         margin-left: 22vw;
+        margin-right: 22vw;
         margin-top: 0px;
         margin-bottom: 0px;
         font-size: 30px;
