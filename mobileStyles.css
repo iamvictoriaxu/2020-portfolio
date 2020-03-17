@@ -429,96 +429,119 @@
         opacity: 50%;
     }
 /************** MISSING FORWARDER **************/
-    #welcomeMF {
-        position: absolute;
-        width: 80%;
-        display: inline-block;
-        left: 10%;
-        top: 52vw;
-    }
     #skillsMF {
         position: absolute;
         display: inline-block;
         margin-left: 10%;
-        padding-top: 0px;
-        padding-bottom: 24px;
+        margin-top: 0px;
+        margin-bottom: 24px;
         height: 120px;
-        width: 300px;
+    }
+    #MFgoalTitle {
+        margin-top: 200px;
+        padding-bottom: 24px;
+    }
+    #goalCR {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 250px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #MFstep2 {
+        margin-left: 10vw !important;
+        margin-right: 10vw;
+        padding-top: 30px !important;
+    }
+    #MFclient {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-top: 80px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     #step3MF {
-        margin-left: 10% !important;
-        padding-top: 44px !important;
+        margin-left: 10vw !important;
+        margin-right: 10vw;
+        margin-top: 60px !important;
     }
     #problemMF {
-        margin-left: 10%;
-        padding-top: 100px;
-        padding-bottom: 0px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-top: 110px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 160px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #MFstep4 {
+        margin-left: 10vw !important;
+        padding-top: 20px !important;
+    }
+    #MFsolution1 {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-top: 120px;
+        padding-bottom: 40px;
         font-size: 14px;
         font-weight: normal;
         height: 200px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 80%;
-    }
-    #MFstep4 {
-        margin-left: 10vw !important;
-        padding-top: 12px !important;
-    }
-    #MFsolution1 {
-        margin-left: 10vw;
-        padding-top: 115px;
-        padding-bottom: 24px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 270px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 80%;
     }
     #MFS1 {
         position: relative;
         width: 80%;
         display: inline-block;
         margin-left: 10%;
-        margin-right: 0%;
-        margin-top:20%;
+        margin-right: 10%;
+        margin-top:40%;
         padding-bottom: 60px;
     }
     #MFstep5{
         margin-left: 10vw !important;
-        padding-top: 48px !important;
+        padding-top: 40px !important;
         padding-bottom: 0px !important;
     }
     #MFsolution2 {
         margin-left: 10vw;
-        padding-top: 100px;
+        margin-right:10vw;
+        padding-top: 95px;
         padding-bottom: 24px;
         font-size: 14px;
         font-weight: normal;
-        height: 200px;
+        height: 60px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 80%;
     }
     #MFS2 {
         position: relative;
         width: 80%;
         display: inline-block;
         margin-left: 10%;
-        margin-right: 0%;
-        margin-top:-16%;
+        margin-right: 10%;
+        margin-top: 36%;
         padding-bottom: 60px;
     }
     #MFsolution3 {
         margin-left: 10vw;
-        padding-top: 140px;
-        padding-bottom: 80px;
+        margin-right: 10vw;
+        padding-top: 120px;
+        margin-bottom: 80px;
         font-size: 14px;
         font-weight: normal;
         height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 80%;
     }
     #blackBackgroundMF {
         position: relative;
@@ -552,6 +575,29 @@
         margin-left: 5%;
         margin-top: -75%;
         display: block;
+    }
+    #MFreflectionTitle {
+        position: relative;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 24px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #MFreflectionDescription {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     /*Moons and clouds*/
     #MFcloud1 {
