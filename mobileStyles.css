@@ -653,15 +653,17 @@
         top: 55vw;
     }
     #introdescriptionCH {
+        width: 30vw;
         margin-left: 10vw;
         margin-right: 10vw;
-        padding-top: 460px;
-        padding-bottom: 40px;
+        padding-top: 126vw;
+        padding-bottom: 24px;
         font-size: 14px;
         font-weight: normal;
-        height: 150px;
+        height: 160px;
         letter-spacing: 1.2px;
         line-height: 28px;
+        width: 80%;
     }
     #skillsCH {
         position: absolute;
@@ -862,24 +864,26 @@
         top: 55vw;
     }
     #introdescriptionMIP {
+        width: 30vw;
         margin-left: 10vw;
         margin-right: 10vw;
-        padding-top: 440px;
-        padding-bottom: 40px;
+        padding-top: 120vw;
+        padding-bottom: 24px;
         font-size: 14px;
         font-weight: normal;
-        height: 60px;
+        height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
+        width: 80%;
     }
     #MIPskills {
         position: absolute;
         display: inline-block;
-        margin-left: 8%;
+        margin-left: 10%;
+        margin-right: 10%;
         padding-top: 40px;
         margin-bottom: 400px;
-        height: 170px;
-        width: 320px;
+        height: 160px;
     }
     #MIPgoalTitle{
         margin-top: 280px;
