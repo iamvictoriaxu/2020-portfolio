@@ -26,232 +26,232 @@
     background-attachment: static;
     margin: 0; 
 }
-/*IPAD SMALLLLL*/
+/*IPAD*/
 @media only screen 
-        and (min-width: 561px) 
-        and (max-width : 747px) 
+        and (min-width: 748px) 
+        and (max-width : 1024px) 
         and (-webkit-min-device-pixel-ratio: 1.5) {
             
 /************** HOME PAGE **************/
-#intro {
-    color: #ffffff;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    height: 30px;
-    letter-spacing: 1.95px;
-    text-align: center;
-    width: 400px;
-    margin: auto;
-    padding-top: 258px;
-}
-#victoria {
-    color: #ffffff;
-    font-family:'Oranienbaum', serif;
-    font-weight: normal;
-    font-size: 100px;
-    height: 126px;
-    letter-spacing: 7.33px;
-    width: 700px;
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 85px;
-    margin: auto;
-}
-#mountainContainer {
-    position: relative;
-}
-/*Images*/
-#mountain {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} 
-#mountainIpad {
-    display: none;
-}
-#pinkRectangle {
-    width:100%;
-    height:32vw
-}
-#pinkRectangleMobile {
-    display:none;
-}
-.shadows {
-    width: 20vw;
-    display: block;
-    position: absolute;
-    z-index: 10;
-}
-#CRtile {
-    width: 20vw;
-    display: inline-block;
-    position: relative;
-    margin-right: 0vw;
-    margin-top: -20vw;
-    z-index: 2;    
-}
-#CRshadow {
-    margin-left: 1vw;
-    margin-top:-14vw;
-    z-index: -1; 
-}
-/**#CRtile:hover, #MFtile:hover, #CHtile:hover, #MIPtile:hover {
-    transform: translateY(-20px);
-    transition-duration: 0.3s;
-}
-/*#CRshadow:hover {
-    transform: scale(.8);
-    transition-duration: 1s;
-}*/
+    #intro {
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        height: 30px;
+        letter-spacing: 1.95px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        padding-top: 258px;
+        padding-bottom: 30px;
+    }
+    #victoria {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 100px;
+        height: 126px;
+        letter-spacing: 7.33px;
+        width: 700px;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 85px;
+        margin: auto;
+    }
+    #mountainContainer {
+        position: relative;
+        margin-top: 100px;
+    }
+    /*Images*/
+    #mountain {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    #mountainIpad {
+        display: none;
+    }
+    #pinkRectangle {
+        width:100%;
+        height:32vw
+    }
+    #pinkRectangleMobile {
+        display:none;
+    }
+    .shadows {
+        width: 20vw;
+        display: block;
+        position: relative;
+        z-index: 10;
+    }
+    #CRtile {
+        width: 20vw;
+        display: inline-block;
+        position: relative;
+        margin-right: 0vw;
+        margin-top: -20vw;
+        z-index: 2;    
+    }
+    #CRshadow {
+        margin-left: 1vw;
+        margin-top:-14vw;
+        z-index: -1; 
+    }
+    /**#CRtile:hover, #MFtile:hover, #CHtile:hover, #MIPtile:hover {
+        transform: translateY(-20px);
+        transition-duration: 0.3s;
+    }
+    /*#CRshadow:hover {
+        transform: scale(.8);
+        transition-duration: 1s;
+    }*/
 
-#MFtile {
-    width: 20vw;
-    display: inline-block;
-    position: relative;
-    margin-right: 20vw;
-    margin-top: -15vw;
-    z-index: 2; 
-}
-#MFshadow {
-    margin-left: 1vw;
-    margin-top:-14vw;
-    z-index: -1; 
-}
-/*#CHtile {
-    width: 20vw;
-    display: inline-block;
-    position: relative;
-    margin-left: 100vw;
-    margin-top: -8vw;
-    z-index: 2; 
-}*/
-#CHtile {
-    width: 20vw;
-    display: inline-block;
-    position: relative;
-    margin-left: 160vw;
-    margin-top: -18vw;
-    z-index: 2; 
-}
-#CHshadow {
-    margin-left: 161vw;
-    margin-top: -14vw;
-    z-index: -1;
-}
-#MIPtile {
-    width: 20vw;
-    display: inline-block;
-    position: relative;
-    margin-right: 14vw;
-    margin-top: -30vw;
-    z-index: 2; 
-}
-#MIPshadow {
-    margin-left: 1vw;
-    margin-top: -14vw;
-    z-index: -1;
-}
-.main {
-    position:absolute;
-    top: 0px;
-    width:90vw;
-    margin: 20vw 4vw 0vw 4vw;
-} 
-/*MY WORK title*/
-h1 {
-    color: #ffffff;
-    font-family:'Oranienbaum', serif;
-    font-weight: normal;
-    font-size: 28px;
-    letter-spacing: 2px;
-    height: 60px;
-    width: 80vw;
-    float: right;
-    text-align: right;
-    margin: auto;
-} 
+    #MFtile {
+        width: 20vw;
+        display: inline-block;
+        position: relative;
+        margin-right: 20vw;
+        margin-top: -14vw;
+        z-index: 2; 
+    }
+    #MFshadow {
+        margin-left: 1vw;
+        margin-top:-14vw;
+        z-index: -1; 
+    }
+    /*#CHtile {
+        width: 20vw;
+        display: inline-block;
+        position: relative;
+        margin-left: 100vw;
+        margin-top: -8vw;
+        z-index: 2; 
+    }*/
+    #CHtile {
+        width: 20vw;
+        display: inline-block;
+        position: relative;
+        margin-left: 160vw;
+        margin-top: -12vw;
+        z-index: 2; 
+    }
+    #CHshadow {
+        margin-left: 161vw;
+        margin-top: -14vw;
+        z-index: -1;
+    }
+    #MIPtile {
+        width: 20vw;
+        display: inline-block;
+        position: relative;
+        margin-right: 14vw;
+        margin-top: -20vw;
+        z-index: 2; 
+    }
+    #MIPshadow {
+        margin-left: 1vw;
+        margin-top: -14vw;
+        z-index: -1;
+    }
+    .main {
+        position:absolute;
+        top: 0px;
+        width:90vw;
+        margin: 20vw 2vw 0vw 2vw;
+    } 
+    /*MY WORK title*/
+    h1 {
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        height: 90px;
+        width: 400px;
+        float: left;
+        text-align: left;
+        margin: auto;
+        margin-left:10vw;
+    } 
 
-/*CONTACT ME*/
-h2 {
-    color: #ffffff;
-    font-family:'PT Sans Narrow', sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2px;
-    display: block;
-    float: left;
-    text-align: right;
-    margin-top:80px;
-    bottom:0px;
-    left:0px;
-} 
-#emailme {
-    bottom: 0px;
-}
+    /*CONTACT ME*/
+    h2 {
+        color: #ffffff;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: 2px;
+        display: block;
+        float: left;
+        text-align: right;
+        margin-top:80px;
+        bottom:0px;
+        left:0px;
+    } 
 
-/*home page links*/
-#pastwork, #tobesoon {
-    max-width: 400px;
-    display: block;
-    color: #ffffff;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1.95px;
-    text-align: left;
-    margin: 0vw 0vw 0vw 6vw;
-    margin-bottom: 20px;
-    cursor: text;   
-} 
-a {
-    max-width: 380px;
-    display: block;
-    margin: 0vw 0vw 0vw 6vw;
-    border: none;
-    cursor: pointer;
-    color: #ffffff;
-    font-family:'Oranienbaum', serif;
-    font-weight: normal;
-    font-size: 28px;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
-/*line2*/
-span{
-    display: block;
-    font-size: 14px;
-    color: #ffffff;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: normal;
-    padding-top: 12px;
-    padding-bottom: 44px;
-    text-decoration: none;
-}
-#mountainContainer{
-    float:left;
-}
-/**Animate tiles and titles*/
-.twoLineButton:hover {
-    font-weight: 1000;
-}
-.project {
-    float:right;
-    top:0px;
-    position:relative;
-}
-.twoLineButton:hover + .project{
-    transform: translateY(-20px);
-    transition-duration: 0.3s;
-}
+    /*home page links*/
+    #pastwork, #tobesoon {
+        max-width: 400px;
+        display: block;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 1.95px;
+        text-align: left;
+        margin: 0vw 0vw 0vw 10vw;
+        margin-bottom: 20px;
+        cursor: text;   
+    } 
+    a {
+        max-width: 380px;
+        display: block;
+        margin: 0vw 0vw 0vw 10vw;
+        border: none;
+        cursor: pointer;
+        color: #ffffff;
+        font-family:'Oranienbaum', serif;
+        font-weight: normal;
+        font-size: 32px;
+        letter-spacing: 2px;
+        text-decoration: none;
+    }
+    /*line2*/
+    span{
+        display: block;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: normal;
+        padding-top: 12px;
+        padding-bottom: 44px;
+        text-decoration: none;
+    }
+    #mountainContainer{
+        float:left;
+    }
+    /**Animate tiles and titles*/
+    .twoLineButton:hover {
+        font-weight: 1000;
+    }
+    .project {
+        float:right;
+        top:0px;
+        position:relative;
+    }
+    .twoLineButton:hover + .project{
+        transform: translateY(-20px);
+        transition-duration: 0.3s;
+    }
     
 /************** ABOUT ME **************/
     #pageTitle {
         color: #ffffff;
         font-family:'Oranienbaum', serif;
         font-weight: normal;
-        font-size: 32px;
+        font-size: 36px;
         letter-spacing: 2px;
         display: block;
         text-align: left;
@@ -272,7 +272,7 @@ span{
         width: 50vw;
         margin-left: 10vw;
         padding-top: 230px;
-        padding-bottom: 24px;
+        margin-bottom: 12px;
     }
     #mountain2 {
         position: fixed;
@@ -280,74 +280,56 @@ span{
         width: 50vw;
         right: 0px;
         bottom: 0px;
+        z-index: -1;
     }
     .skills {
         position: absolute;
         display: inline-block;
         margin-left: 10%;
-        padding-top: 16px;
-        padding-bottom: 36px;
-        height: 130px;
-        width: 392px;
+        margin-bottom: 30px;
+        margin-right: 36px;
+        
     }
     #skillsAboutMe {
         height: 160px !important;
-    }
-    #AMemailme{
-        float: left;
-        text-align: left;
-        margin-top: 240px;
-        margin-bottom: 0px;
-        z-index: 10;
-        text-decoration: none;
-    }
-    #AMlinkedin {
-        float: left;
-        text-align: left;
-        margin-top: 240px;
-        margin-bottom: 0px;
-        margin-left:10%;
-        z-index: 10;
-        text-decoration: none;
+        width: 392px;
+        margin-top: 0px;
     }
     #me {
         position: relative;
         width: 22%;
         display: inline-block;
-        left: 40%;
-        bottom: 15vw;
+        float: right;
+        margin-right: 12vw;
+        margin-top: -35%;
     }
     #meMobile {
         display:none;
     }
 /************** CONTROL ROOM **************/
     #introdescription {
-        width: 30vw;
         margin-left: 10vw;
         padding-top: 230px;
-        padding-bottom: 24px;
-        font-size: 14px;
+        margin-bottom: 24px;
+        font-size: 16px;
         font-weight: normal;
-        height: 130px;
+        height: 150px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 35%;
-    }
-    #skillsCR{
-        position: absolute;
-        display: inline-block;
-        margin-left: 10%;
-        padding-top: 0px;
-        padding-bottom: 24px;
-        height: 135px;
-        width: 364px;
+        width: 400px;
     }
     .topImage {
         position: absolute;
-        width: 48%;
+        width: 450px;
         display: inline-block;
-        left: 50%;
-        top: 24vw
+        left: 52%;
+        top: 22vw
+    }
+    #skillsCR {
+        height: 140px !important;
+        width: 390px;
+        margin-top: 120px;
+        margin-bottom: 5vw;
     }
     .stepTitle {
         color: #ffffff;
@@ -357,101 +339,109 @@ span{
         letter-spacing: 2px;
         display: inline-block;
         text-align: left;
-        margin-left: 22vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
         position: absolute;
-        padding-top: 300px;
-        padding-bottom: 24px;
     }
     #CRgoalTitle {
-        margin-top: 250px;
+        margin-top: 340px;
         padding-bottom: 24px;
     }
     #goalCR {
-        margin-left: 22vw;
-        margin-top: 300px;
-        padding-bottom: 24px;
-        font-size: 14px;
+        margin-left: 20vw !important;
+        margin-right: 20vw !important;
+        margin-top: 440px;
+        font-size: 16px;
         font-weight: normal;
-        height: 130px;
+        height: 100px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
-    #step2 , #step3 , #step4 {
-        padding-top: 0px !important;
+    #CRstep2 {
+        margin-top: 20px !important;
     }
-    #client {
-        margin-left: 22vw;
-        padding-top: 50px;
-        padding-bottom: 24px;
-        font-size: 14px;
+    #CRclient {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 68px;
+        margin-bottom: 40px;
+        font-size: 16px;
         font-weight: normal;
         height: 180px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
-    #problem {
-        margin-left: 22vw;
-        padding-top: 50px;
+    #CRstep3 {
+        margin-top: 50px !important;
+    }
+    #CRproblem {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 140px;
         padding-bottom: 24px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
         height: 240px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
-    #solution1 {
-        margin-left: 22vw;
-        padding-top: 115px;
-        padding-bottom: 24px;
-        font-size: 14px;
+    #CRstep4 {
+        margin-top: 40px !important;
+    }
+    #CRsolution1 {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 150px;
+        margin-bottom: 100px;
+        font-size: 16px;
         font-weight: normal;
         height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
     #CRS1 {
         position: relative;
-        width: 75%;
+        width: 60%;
         display: inline-block;
-        margin-left: 15%;
-        padding-bottom: 40px;
-    }
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 60px;
+    } 
     #subheading {
-        padding-top: 90px !important;
-        margin-left: 22vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top:20px;
     }
-    #solution2 {
-        margin-left: 22vw;
-        padding-top: 140px;
-        padding-bottom: 140px;
-        font-size: 14px;
+    #CRsolution2 {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 60px;
+        margin-bottom: 100px;
+        font-size: 16px;
         font-weight: normal;
-        height: 80px;
+        height: 140px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
     #CRS2 {
         position: relative;
-        width: 75%;
+        width: 60%;
         display: inline-block;
-        margin-left: 15%;
-        padding-bottom: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 80px;
+        margin-top:80px;
     }
-    #solution3 {
-        margin-left: 22vw;
-        padding-top: 140px;
-        padding-bottom: 40px;
-        font-size: 14px;
+    #CRsolution3 {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 68px;
+        margin-bottom: 80px;
+        font-size: 16px;
         font-weight: normal;
         height: 80px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
     #blackBackground {
         position: relative;
@@ -459,150 +449,191 @@ span{
         height: 20%;
         display: inline-block;
         margin: auto;
-        padding-bottom: 60px;
+        margin-top: 40px;
+        margin-bottom: 60px;
         z-index: 1;
     }
     #prototypeCR {
         z-index: 10;
         position: absolute;
-        margin-left: 17%;
-        margin-top:-53%;
-        height: 360px;
-        width: 640px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top:-60%;
         display: block;
+        width:60%;
     }
-    #reflection {
+    #CRreflectionTitle {
         position: relative;
-        margin-left: 22vw;
-        margin-top: 40px;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 0px;
         margin-bottom: 0px;
         font-size: 28px;
         font-weight: normal;
         height: 40px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
-    #reflectionDescription {
-        margin-left: 22vw;
+    #CRreflectionDescription {
+        margin-left: 20vw;
+        margin-right: 20vw;
         margin-top: 12px;
         margin-bottom: 0px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
         height: 180px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
     /*Moons and clouds*/
     #CRmoon1 {
         position: relative;
-        width: 12%;
+        width: 10%;
         float: right;
-        margin-right: 80px;
-        margin-top: -80px;
+        margin-right: 150px;
+        margin-top: -50px;
         z-index: -2;        
     }
     #CRcloud1 {
         position: relative;
-        width: 16%;
+        width: 10%;
         float: right;
-        margin-right: -80px;
-        margin-top: 0px;
+        margin-right: -100px;
+        margin-top: 20px;
         z-index: -1;
         opacity: 80%;
     }
     #CRcloud3 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: left;
-        margin-left: 40px;
-        margin-top: -47px;
+        margin-left: 100px;
+        margin-top: -80px;
         z-index: -1;
         opacity: 80%;
     }
     #CRcloud4{
         position: relative;
-        width: 10%;
+        width: 8%;
         float: right;
         margin-right: 100px;
-        margin-top: 0px;
+        margin-top: -20px;
         z-index: -1;
         opacity: 50%;
     }
 /************** MISSING FORWARDER **************/
     #skillsMF {
-        position: absolute;
-        display: inline-block;
-        margin-left: 10%;
-        padding-top: 0px;
+        height: 140px !important;
+        width: 390px;
+        margin-top: 120px;
+        margin-bottom: 5vw;
+    }
+    #MFgoalTitle {
+        margin-top: 340px;
         padding-bottom: 24px;
-        height: 135px;
-        width: 364px;
+    }
+    #goalCR {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 410px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #MFstep2 {
+        margin-left: 20vw !important;
+        margin-right: 20vw;
+        padding-top: 0px !important;
+    }
+    #MFclient {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 50px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     #step3MF {
-        margin-left: 22vw !important;
+        margin-left: 20vw !important;
+        margin-right: 20vw;
         padding-top: 0px !important;
     }
     #problemMF {
-        margin-left: 22vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
         padding-top: 50px;
-        padding-bottom: 24px;
-        font-size: 14px;
+        margin-bottom: 100px;
+        font-size: 16px;
         font-weight: normal;
         height: 160px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
     #MFstep4 {
-        margin-left: 12vw !important;
+        margin-left: 10vw !important;
+        margin-right: 60vw;
         padding-top: 0px !important;
     }
     #MFsolution1 {
-        margin-left: 12vw;
-        padding-top: 115px;
-        padding-bottom: 24px;
-        font-size: 14px;
+        margin-left: 10vw;
+        margin-right: 60vw;
+        padding-top: 140px;
+        padding-bottom: 40px;
+        font-size: 16px;
         font-weight: normal;
         height: 200px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 35%;
     }
     #MFS1 {
         position: relative;
-        width: 45%;
+        width: 40%;
         display: inline-block;
-        margin-left: 50%;
-        margin-right: 0%;
-        margin-top:-280px;
+        margin-left: 50vw;
+        margin-right: 0vw;
+        margin-top:-200px;
         padding-bottom: 60px;
     }
     #MFstep5{
-        margin-left: 60vw !important;
-        padding-top: 48px !important;
+        margin-left: 57vw !important;
+        padding-top: 40px !important;
         padding-bottom: 0px !important;
     }
     #MFsolution2 {
-        margin-left: 60vw;
+        margin-left: 57vw;
+        margin-right:10vw;
         padding-top: 100px;
         padding-bottom: 24px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
         height: 200px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 35%;
     }
     #MFS2 {
         position: relative;
-        width: 45%;
+        width: 40%;
         display: inline-block;
         margin-left: 10vw;
-        margin-right: 0%;
-        margin-top:-275px;
+        margin-right: 0vw;
+        margin-top:-200px;
         padding-bottom: 60px;
+    }
+    #MFsolution3{
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 68px;
+        margin-bottom: 120px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 80px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     #blackBackgroundMF {
         position: relative;
@@ -617,8 +648,10 @@ span{
         z-index: 10;
         width: 40%;
         position: absolute;
-        margin-left: 40%;
-        margin-top: -90%;
+        margin-left: 40vw;
+        margin-right: 20vw;
+        margin-bottom: 2vw;
+        margin-top: -860px;
         display: block;
     }
     #prototypeMF1 {
@@ -626,7 +659,7 @@ span{
         width: 50%;
         position: absolute;
         margin-left: 17%;
-        margin-top: -70%;
+        margin-top: -660px;
         display: block;
     }
     #prototypeMF2 {
@@ -634,13 +667,36 @@ span{
         width: 50%;
         position: absolute;
         margin-left: 25%;
-        margin-top: -45%;
+        margin-top: -410px;
         display: block;
+    }
+    #MFreflectionTitle {
+        position: relative;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #MFreflectionDescription {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     /*Moons and clouds*/
     #MFcloud1 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: right;
         margin-right: 60px;
         margin-top: -70px;
@@ -649,53 +705,53 @@ span{
     }
     #MFmoon1 {
         position: relative;
-        width: 12%;
+        width: 10%;
         float: left;
-        margin-left: 100px;
-        margin-top: -215px;
+        margin-left: 120px;
+        margin-top: -200px;
         z-index: -1;
     }
     #MFcloud2{
         position: relative;
-        width: 12%;
+        width: 8%;
         float: left;
-        margin-left: 40px;
-        margin-top: -200px;
+        margin-left: 80px;
+        margin-top: -180px;
         z-index: -1;
         opacity: 50%;
     }
     #MFcloud3{
         position: relative;
-        width: 20%;
+        width: 10%;
         float: left;
-        margin-left: 100px;
-        margin-top: -120px;
+        margin-left: 180px;
+        margin-top: -100px;
         z-index: -1;
         opacity: 90%;
     }
     #MFcloud4 {
         position: relative;
-        width: 16%;
+        width: 10%;
         float: right;
         margin-right: 60px;
-        margin-top: 160px;
+        margin-top: 300px;
         z-index: -1;
         opacity: 50%;
     }
     #MFcloud5 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: right;
-        margin-right: 0px;
-        margin-top: 300px;
+        margin-right: 100px;
+        margin-top: 440px;
         z-index: -1;
     }
     #MFcloud6 {
         position: relative;
         width: 10%;
         float: right;
-        margin-right: 120px;
-        margin-top: -80px;
+        margin-right: -250px;
+        margin-top: 540px;
         z-index: -1;
         opacity: 50%;
     }
@@ -705,43 +761,191 @@ span{
         width: 40% !important;
         display: inline-block !important;
         left: 55% !important;
-        top: 21vw !important;
+        top: 20vw !important;
     }
+    
     #introdescriptionCH {
-        width: 30vw;
         margin-left: 10vw;
+        margin-right: 60%;
         padding-top: 230px;
         padding-bottom: 24px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
-        height: 130px;
+        height: 150px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 35%;
+        width: 40%;
     }
-    #step3CH{
-        padding-top: 0px !important;
+    #skillsCH {
+        height: 140px !important;
+        width: 390px;
+        margin-top: 170px;
+        margin-bottom: 5vw;
     }
-    #problemCH {
-        margin-left: 22vw;
-        padding-top: 50px;
+    #CHgoalTitle {
+        margin-top: 480px;
         padding-bottom: 24px;
-        font-size: 14px;
+    }
+    #goalCH {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 535px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #marketresearch {
+        margin-left: 20vw !important;
+        margin-right: 20vw;
+    }
+    #marketresearchDescription {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 54px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #CHstep2 {
+        margin-top: 40px !important;
+    }
+    #CHclient {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 90px;
+        margin-bottom: 100px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #CHstep3{
+        margin-top: 0px !important;
+    }
+    #problemCH{
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 50px;
+        margin-bottom: 24px;
+        font-size: 16px;
         font-weight: normal;
         height: 240px;
         letter-spacing: 1.2px;
         line-height: 28px;
+    }
+    #CHstep4{
+        margin-top: 40px !important;
+    }
+    #solution1CH {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 160px;
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 320px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #CHS1 {
+        position: relative;
         width: 60%;
-    }
-    #skillsCH {
-        position: absolute;
         display: inline-block;
-        margin-left: 10%;
-        padding-top: 32px;
-        padding-bottom: 24px;
-        height: 135px;
-        width: 364px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top:4%;
+        padding-bottom: 60px;
     }
+    #solution2CH {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 50px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #CHS2 { 
+        position: relative;
+        width: 52%;
+        display: inline-block;
+        margin: 10% 24% 4% 24%;
+        padding-bottom: 60px;
+    }
+    #CHS3 { 
+        width: 56%;
+        display: inline-block;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-bottom: 60px;
+    }
+
+    #solution3CH {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #whiteBackground {
+        position: relative;
+        width:60%;
+        height: 40vw;
+        display: inline-block;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-bottom: 120px;
+        padding-bottom: 40px;
+        z-index: 1;
+    }
+    #prototypeCH{
+        z-index: 10;
+        position: relative;
+        margin-left: 43%;
+        margin-right: 43%;
+        margin-top:-50%;
+        margin-bottom: 80px;
+        height: 10%;
+        width: 15%;
+        display: block;
+    }
+    
+    #CHreflection {
+        position: relative;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #CHreflectionDescription {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 4px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    /*MOONS AND CLOUDS**/
     #CHmoon1 {
         position: relative;
         width: 12%;
@@ -752,21 +956,27 @@ span{
     }
     #CHcloud1 {
         position: relative;
-        width: 18%;
+        width: 12%;
         float: right;
         margin-right: -100px;
-        margin-top: 60px;
+        margin-top: 20px;
         z-index: -1;
         opacity: 50%;
     }
     #CHcloud2 {
-        display:none;
+        position: relative;
+        width: 10%;
+        float: right;
+        margin-right: -280px;
+        margin-top: 80px;
+        z-index: -1;
+        opacity: 90%;
     }
     #CHcloud3 {
         position: relative;
         width: 8%;
         float: left;
-        margin-left: 60px;
+        margin-left: 100px;
         margin-top: -100px;
         z-index: -1;
         opacity: 50%;
@@ -780,244 +990,164 @@ span{
         z-index: -1;
         opacity: 90%;
     }
-    
-    #clientCH {
-        margin-left: 22vw;
-        padding-top: 50px;
-        padding-bottom: 24px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 140px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 60%;
-    }
-    #solution1CH {
-        margin-left: 22vw;
-        padding-top: 115px;
-        padding-bottom: 24px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 194px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 60%;
-    }
-    #solution2CH {
-        margin-left: 22vw;
-        padding-top: 140px;
-        padding-bottom: 24px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 80px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 60%;
-    }
-    #CHS2 { 
-        position: relative;
-        width: 52%;
-        display: inline-block;
-        margin-left: 22%;
-        margin-right: 0%;
-        padding-bottom: 60px;
-    }
-    #solution3CH {
-        margin-left: 22vw;
-        padding-top: 140px;
-        padding-bottom: 40px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 80px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 60%;
-    }
-    #whiteBackground {
-        position: relative;
-        width: 64%;
-        height: 45vw;
-        display: inline-block;
-        margin-left: 20%;
-        margin-bottom: 120px;
-        padding-bottom: 40px;
-        z-index: 1;
-    }
-    #prototypeCH{
-        z-index: 10;
-        position: relative;
-        margin-left: 44%;
-        margin-top:-56.5%;
-        padding-bottom:100px;
-        height: 10%;
-        width: 15%;
-        display: block;
-    }
-    #marketresearch {
-        margin-left: 22vw !important;
-        padding-top: 0px !important;
-    }
-    #CHreflection {
-        position: relative;
-        margin-left: 22vw;
-        margin-top: 40px;
-        margin-bottom: 0px;
-        font-size: 28px;
-        font-weight: normal;
-        height: 40px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 60%;
-    }
-    #CHreflectionDescription {
-        margin-left: 22vw;
-        margin-top: 12px;
-        margin-bottom: 0px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 180px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 60%;
-    }
-
 /************** MIP **************/
+    #welcomeMIP {
+        position: absolute;
+        width: 450px;
+        display: inline-block;
+        left: 52%;
+        top: 24vw
+    }
     #introdescriptionMIP {
-        width: 30vw;
         margin-left: 10vw;
         padding-top: 230px;
         padding-bottom: 24px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
-        height: 130px;
+        height: 100px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 35%;
+        width: 400px;
     }
     #MIPskills {
-        position: absolute;
-        display: inline-block;
-        margin-left: 10%;
-        padding-top: 48px;
+        height: 200px !important;
+        width: 390px;
+        margin-top: 100px;
+        margin-bottom: 2vw;
+    }
+    #MIPgoalTitle{
+        margin-top: 460px;
         padding-bottom: 24px;
-        height: 158px;
-        width: 364px;
+    }
+    #goalMIP {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 515px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 150px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     #clientMIP {
-        margin-left: 22vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
         padding-top: 50px;
-        padding-bottom: 24px;
-        font-size: 14px;
+        margin-bottom: 40px;
+        font-size: 16px;
         font-weight: normal;
         height: 160px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
     }
     #step3MIP {
-        margin-left: 12vw !important;
+        margin-left: 10vw !important;
+        margin-right: 60vw;
         padding-top: 0px !important;
     }
     #problemMIP {
-        margin-left: 12vw;
-        padding-top: 90px;
-        padding-bottom: 24px;
-        font-size: 14px;
-        font-weight: normal;
-        height: 360px;
-        letter-spacing: 1.2px;
-        line-height: 28px;
-        width: 35%;
-    }
-    #MIP1 {
-        position: relative;
-        width: 45%;
-        display: inline-block;
-        margin-left: 52%;
-        margin-right: 0%;
-        margin-top:-480px;
-        padding-bottom: 60px;
-    }
-    #MIP2 {
-        position: relative;
-        width: 22%;
-        display: inline-block;
-        margin-left: 38%;
-        margin-right: 0%;
-        margin-top:-30%;
-        padding-bottom: 60px;
-    }
-    #MIPsolution2 {
-        margin-left: 60vw;
-        padding-top: 160px;
-        padding-bottom: 24px;
-        font-size: 14px;
+        margin-left: 10vw;
+        margin-right: 60vw;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        font-size: 16px;
         font-weight: normal;
         height: 200px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 35%;
     }
-    #MIP3 {
+    #MIP1 {
         position: relative;
         width: 40%;
         display: inline-block;
-        margin-left: 12vw;
+        margin-left: 50%;
         margin-right: 0%;
-        margin-top:-350px;
-        padding-bottom: 20px;
+        margin-top: -200px;
+        padding-bottom: 60px;
     }
-    #MIPsolution3 {
-        margin-left: 22vw;
-        padding-top: 140px;
-        padding-bottom: 40px;
-        font-size: 14px;
+    #MIP2 {
+        position: relative;
+        width: 20%;
+        display: inline-block;
+        margin-left: 40%;
+        margin-right: 0%;
+        margin-top:-300px;
+        padding-bottom: 60px;
+    }
+    #step4MIP{
+        margin-left: 57vw !important;
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+    }
+    #MIPsolution2 {
+        margin-left: 57vw;
+        margin-right: 10vw;
+        margin-top: 170px;
+        padding-bottom: 24px;
+        font-size: 16px;
         font-weight: normal;
-        height: 80px;
+        height: 200px;
         letter-spacing: 1.2px;
         line-height: 28px;
-        width: 60%;
+    }
+    #MIP3 {
+        position: relative;
+        width: 35%;
+        display: inline-block;
+        margin-left: 10vw;
+        margin-right: 0%;
+        margin-top:-350px;
+        margin-bottom: 80px;
+    }
+    #MIPsolution3 {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 84px;
+        padding-bottom: 40px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 120px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
     }
     #MIP4 {
         position: relative;
-        width: 78%;
-        height: 40%;
+        width: 70%;
         display: inline-block;
-        margin-left: 15%;
-        padding-bottom: 40px;
+        margin-left: 16%;
+        margin-bottom: 80px;
     }
     #blackBackgroundMIP {
         position: relative;
         width: 100%;
-        height: 10%;
+        height: 52vw;
         padding-top: 40px;
         display: inline-block;
-        margin: auto;
-        padding-bottom: 40px;
-        z-index: 1;
+        margin: 2vw 0vw 0vw 0vw;
+        padding-bottom: 40px; 
     }
+
+    * {box-sizing:border-box}
+
     /* Slideshow container */
     .slideshow-container {
-        max-width: 1000px;
+        max-width:84vw;
         position: relative;
-        margin-left: 1%;
-        margin-top:-70%;
-        padding-bottom: 60px;
-        z-index: 10;
+        margin: -45vw 22vw 10vw 22vw;
+        text-align:center;
     }
     /* Hide the images by default */
     .mySlides {
         display: none;
-        text-align: center;
     }
     /* Next & previous buttons */
     .prev, .next {
         cursor: pointer;
         position: absolute;
-        top: 50%;
+        top: 40%;
         width: auto;
         margin-top: -22px;
-        padding: 16px;
+        margin: 22px;
         color: white;
         font-weight: bold;
         font-size: 18px;
@@ -1032,34 +1162,35 @@ span{
     }
     /* On hover, add a black background color with a little bit see-through */
     .prev:hover, .next:hover {
-        color: black;
+        background-color: rgba(0,0,0,0.8);
     }
     /* Caption text */
     .text {
         color: #f2f2f2;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: normal;
-        padding: 0px 0px;
+        padding: 8px 12px;
         position: absolute;
-        top: -30px;
+        margin-top: -32px;
         width: 100%;
         text-align: center;
     }
     /* Number text (1/3 etc) */
     .numbertext {
         color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
         font-family: 'PT Sans Narrow', sans-serif;
         font-size: 12px;
         font-weight: normal;
-        padding: 10px 12px;
-        position: absolute;
-        top: 0;
-        }
-
+    }
     /* The dots/bullets/indicators */
     .dot {
-        cursor: pointer;
+        display:none;
+        /*cursor: pointer;
         height: 10px;
         width: 10px;
         margin: 12px 2px;
@@ -1067,11 +1198,12 @@ span{
         border-radius: 50%;
         display: inline-block;
         transition: background-color 0.6s ease;
-        z-index: 10;
+        z-index:10; */
     }
     .active, .dot:hover {
         background-color: #717171;
     }
+
     /* Fading animation */
     .fade {
         -webkit-animation-name: fade;
@@ -1079,10 +1211,12 @@ span{
         animation-name: fade;
         animation-duration: 1.5s;
     }
+
     @-webkit-keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
     }
+
     @keyframes fade {
         from {opacity: .4}
         to {opacity: 1}
@@ -1092,8 +1226,8 @@ span{
         position: relative;
         width: 10%;
         float: right;
-        margin-right: 100px;
-        margin-top: 80px;
+        margin-right: 150px;
+        margin-top: 200px;
         z-index: -1;
         opacity: 50%;
     }
@@ -1104,34 +1238,60 @@ span{
         margin-right: 80px;
         margin-top: -100px;
         z-index: -1;
-        opacity: 90%;
+        opacity: 80%;
     }
     #MIPcloud2 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: left;
         margin-left: 100px;
-        margin-top: -100px;
+        margin-top: -160px;
         z-index: -1;
-        opacity: 80%;
+        opacity: 50%;
     }
     #MIPcloud3 {
         position: relative;
         width: 8%;
         float: left;
         margin-left: 180px;
-        margin-top: -80px;
+        margin-top: -100px;
         z-index: -1;
+        opacity: 80%;
     }
     #MIPcloud4 {
         position: relative;
-        width: 12%;
+        width: 8%;
         float: right;
-        margin-right: 140px;
+        margin-right: -20px;
         margin-top: -120px;
         z-index: -1;
         opacity: 80%;
     }
+    #MIPreflectionTitle {
+        position: relative;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-weight: normal;
+        height: 40px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+    #MIPreflectionDescription {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 48px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        font-weight: normal;
+        height: 180px;
+        letter-spacing: 1.2px;
+        line-height: 28px;
+    }
+
+
 /* all buttons*/
     #VXU {
         background-color: transparent;
@@ -1154,9 +1314,9 @@ span{
         background-color: Transparent;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: normal;
-        height: 24px;
+        height: 28px;
         letter-spacing: 1.33px;
         display: block;
         float: right;
@@ -1164,7 +1324,7 @@ span{
         text-align: center;
         margin-top: 30px;
         margin-right: 30px;
-        padding: 4px 24px 4px 24px;
+        padding: 2px 24px 2px 24px;
         transition-duration: 0.4s;
     }
     .tabButton:hover {
@@ -1173,17 +1333,11 @@ span{
         border: 2px solid white;
         border-radius: 50px;
     }
-    .tabButton:active {
-        background-color: white; 
-        fill-opacity: 30%;
-        border: 2px solid white;
-        border-radius: 50px;
-    }
     #nextPage {
         background-color: Transparent;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: normal;
         height: 24px;
         letter-spacing: 1.33px;
@@ -1198,7 +1352,7 @@ span{
         background-color: Transparent;
         color: #ffffff;
         font-family: 'PT Sans Narrow', sans-serif;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: normal;
         height: 24px;
         letter-spacing: 1.33px;
@@ -1215,3 +1369,6 @@ span{
         font-weight: 700;
     }
 }
+
+
+
