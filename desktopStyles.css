@@ -1,5 +1,5 @@
 #homepage {
-    background-color: #0A253A;
+    background-color: #071A29;
     background-image: url("homeimages/Stars@4x.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     margin: 0; 
 }
 #MFpage, #MIPpage, #aboutme {
-    background-color: #0A253A;
+    background-color: #071A29;
     background-image: url("homeimages/Starsnomoon@4x.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -44,11 +44,11 @@
     }
     #victoria {
         color: #ffffff;
-        font-family:'Oranienbaum', serif;
+        font-family:'Oranienbaum', cursive;
         font-weight: normal;
         font-size: 100px;
         height: 126px;
-        letter-spacing: 7.33px;
+        letter-spacing: 10px;
         width: 700px;
         text-align: center;
         padding-top: 8px;
